@@ -1,4 +1,4 @@
-# Lab 1: Writing More Programs
+# Write Some Programs
 
 ## Review
 
