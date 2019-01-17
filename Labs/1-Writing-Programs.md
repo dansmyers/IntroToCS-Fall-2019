@@ -168,9 +168,13 @@ Try another one: `21 / 5`. What does Java give? What is the correct answer?
 What does Java do if you divide two whole numbers? Try some more examples if you need to.
 
 **ANSWER THE QUESTION BEFORE READING AHEAD**
+
 **ANSWER THE QUESTION BEFORE READING AHEAD**
+
 **ANSWER THE QUESTION BEFORE READING AHEAD**
+
 **ANSWER THE QUESTION BEFORE READING AHEAD**
+
 **ANSWER THE QUESTION BEFORE READING AHEAD**
 
 Java makes a distinction between **integer division**, where both arguments are whole numbers, and regular division, where at least one
