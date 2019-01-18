@@ -1,5 +1,18 @@
 # Write Some Programs
 
+## Plan for Today
+
+Use repl.it to write your programs. Put everything in the file named `Main.java`, in a class named `Main` and the standard `main`
+method. Remember that there's nothing special about the file being named `Main.java`: it's just how the repl.it environment wants
+things to be.
+
+Write a program to answer each of the questions below. After you finish each one, copy it to Word or text file on your local computer to
+save it, then erase your code and move on to the next problem.
+
+I want you to rewrite the program for each problem from scratch, including the `public class` and `public static void main` parts. 
+Repeating this each time will help you get comfortable with the basic structure of Java programs.
+
+
 ## Review
 
 We looked at our first `Hello, World!` program in the last class. Here it is:
@@ -61,7 +74,7 @@ Tips:
 
 ## Haiku
 
-Modify your program to print the following haiku by the poet Kobayashi Issa:
+Write a program to print the following haiku by the poet Kobayashi Issa:
 
 ```
 O snail
@@ -159,6 +172,19 @@ easier to read.
 
 Use Java to calculate the area of a rectangle with length 5.5 and height 3.2.
 
+## The Rules
+
+Arithmetic works the way you would expect in Java. Standard order of operations applies (multiplciation and division first, then
+addition and subtraction) and you can use parentheses to group expressions.
+
+Write a program that performs the following calculation in Java and prints the result:
+
+```
+2 + 8     20 - 5 
+-----  +  ------
+  2          3
+```
+
 ## Division Bell
 
 Calculate `15 / 4` using Java. What did you get? Is that right?
@@ -169,13 +195,7 @@ What does Java do if you divide two whole numbers? Try some more examples if you
 
 **ANSWER THE QUESTION BEFORE READING AHEAD**
 
-**ANSWER THE QUESTION BEFORE READING AHEAD**
-
-**ANSWER THE QUESTION BEFORE READING AHEAD**
-
-**ANSWER THE QUESTION BEFORE READING AHEAD**
-
-**ANSWER THE QUESTION BEFORE READING AHEAD**
+## The Answer
 
 Java makes a distinction between **integer division**, where both arguments are whole numbers, and regular division, where at least one
 number contains a decimal point.
@@ -219,3 +239,29 @@ A hogshead of beer, on the other hand, is defined to be *64* US gallons.
 
 The Ghawar oil field in Saudi Arabia is the largest conventional oil field in the world and produces about 5 million barrels of oil 
 each day. How many beer hogsheads beer could the Ghawar field fill in a day?
+
+## Sum
+
+Recall that the **natural numbers** are the basic counting numbers: 1, 2, 3, and so forth.
+
+There is a formula for the sum of the first *N* natural numbers:
+
+```
+N (N + 1)
+---------
+    2
+```
+
+For example,
+
+```
+1 + 2 + 3 + 4 + 5 = 15
+
+and
+
+5 (5 + 1)   
+--------- = 15
+    2
+```
+
+Use Java to calculate the sum of the first 10000 natural numbers.
