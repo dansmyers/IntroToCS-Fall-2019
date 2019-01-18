@@ -193,7 +193,7 @@ Try another one: `21 / 5`. What does Java give? What is the correct answer?
 
 What does Java do if you divide two whole numbers? Try some more examples if you need to.
 
-**ANSWER THE QUESTION BEFORE READING AHEAD**
+***Answer the question before reading ahead***.
 
 ## The Answer
 
