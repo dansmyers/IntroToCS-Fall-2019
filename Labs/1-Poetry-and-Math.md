@@ -267,3 +267,19 @@ and
 ```
 
 Use Java to calculate the sum of the first 10000 natural numbers.
+
+## Mystery Operator
+
+Java supports a special operator, `%`, which is called the **modulus operator**.
+
+Try some calculations using the modulus operator:
+
+```
+System.out.println(7 % 3);
+System.out.println(12 * 5);
+System.out.println(19 % 7);
+```
+
+Can you figure out what the mod operator does?
+
+Hint: it has something to do with division.
