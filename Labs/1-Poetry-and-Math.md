@@ -276,7 +276,7 @@ Try some calculations using the modulus operator:
 
 ```
 System.out.println(7 % 3);
-System.out.println(12 * 5);
+System.out.println(12 % 5);
 System.out.println(19 % 7);
 ```
 
