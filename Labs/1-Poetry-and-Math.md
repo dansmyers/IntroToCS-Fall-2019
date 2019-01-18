@@ -283,3 +283,26 @@ System.out.println(19 % 7);
 Can you figure out what the mod operator does?
 
 Hint: it has something to do with division.
+
+## The Doomsday Rule
+
+The Doomsday Rule, devised by mathematician John Conway, is a method for finding the day of the week for any given date in a year.
+
+It relies on the fact that certain easy-to-remember days always fall on the same day of the week, which Conway calls the Doomsday for the year. The Doomsday for 2019 is Thursday.
+
+The most important days that fall on the Doomsday are:
+
+- 4/4
+- 6/6
+- 8/8
+- 10/10
+- 12/12
+- The last day of February
+
+To use the rule, calculate the distance in days from your target date to one of the special dates, then take the result modulo 7.
+
+For example, to find the day of the week for 6/14, we can see that 6/14 is 8 days after the special day, 6/6.
+
+8 % 7 is 1, so 6/14 is one day after the Doomsday, which is Friday.
+
+What day of the week is 12/31/2019?
