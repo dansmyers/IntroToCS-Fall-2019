@@ -200,6 +200,8 @@ What does Java do if you divide two whole numbers? Try some more examples if you
 Java makes a distinction between **integer division**, where both arguments are whole numbers, and regular division, where at least one
 number contains a decimal point.
 
+When you divide two integers, Java always **truncates** the result, rounding it down towards zero.
+
 Try calculating `15.0 / 4` and `15 / 4.0` and verify that those expressions yield the correct answers.
 
 ## It's a Trap(ezoid)!
