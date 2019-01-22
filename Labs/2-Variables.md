@@ -55,7 +55,8 @@ on input data to produce output data. The starting point for designing the right
 Java contains a bulit-in class called `Math` that provides several useful math features.
 
 It includes a built-in constant value of pi, `Math.PI`, which is defined to be the `double` value closest to the true value of pi.
-This is better than using a hard-coded 3.14 in your programs.
+This is better than using a hard-coded 3.14 in your programs. Remember that `PI` is capitalized to indicate that it's a `final` constant
+and can't be changed or reassigned.
 
 Write a program to calculate the area of a circle using `Math.PI`.
 
