@@ -71,6 +71,8 @@ The Burj Khalifa is the tallest tower in the world, measuring 2722 feet to its t
 
 Add the string `"plus or minus one ear"` to your output.
 
+Tip: you don't strictly need them for this problem, but please use variables for your calculations.
+
 
 ## Double Math
 
