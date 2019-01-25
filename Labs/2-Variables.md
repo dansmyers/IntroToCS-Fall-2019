@@ -66,7 +66,7 @@ You can extend this idea to print multiple values at the same time:
 System.out.println("The area of a circle with radius " + radius + " is " + circleArea + ".");
 ```
 
-Modify the rectangle area program to print an text string along with the output value.
+Modify the rectangle area program to print a text string along with the output value.
 
 
 ## Smoots II
