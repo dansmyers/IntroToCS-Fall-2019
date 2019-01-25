@@ -80,6 +80,29 @@ Add the string `"plus or minus one ear"` to your output.
 Tip: you don't strictly need them for this problem, but please use variables for your calculations.
 
 
+## I Should Have Bought Ten Years Ago
+
+Bitcoin is currently trading at a rate of about 3583.56 U.S. Dollars to 1 Bitcoin
+    
+Write a program that can convert a number of Bitcoins to dollars. Use `final double` to represent the exchange rate.
+
+How many dollars are obtained by exchanging .25 BTC?
+
+
+## Temperature Conversion
+
+A classic example.
+
+To convert a temperature of F degrees Fahrenheit into Celsius, use
+
+    C = (F - 32) * (5 / 9)
+    
+Write a program that can perform this temperature conversion. What is
+the conversion for 85 degrees Fahrenheit?
+
+Hint: make sure you don't get zero!
+
+
 ## Double Math
 
 Recall that all of the data in our Java programs must ultimately be stored on a real, physical computer. This implies that there must be **limitations** for the range and precision of values that can be represented in Java programs.
@@ -152,3 +175,11 @@ basic inputs and used to find the final result.
 Tip-Tip: use `Math.sqrt()` to calculate the square root.
 
 
+## Exchange Rates II
+
+During a period of hyperinflation last year, the Venezuelan Bolivar was trading at a rate of 248,487 Bolivars to 1 U.S. dollar
+    
+Write a program that can calculate the number of Bolivars in 1 million U.S. dollars.
+
+Hint: if you get a weird answer, think carefully about the type of your output variable. You might need something with a *longer* 
+range...
