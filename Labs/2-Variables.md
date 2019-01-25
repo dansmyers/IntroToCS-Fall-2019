@@ -91,10 +91,12 @@ How many dollars are obtained by exchanging .25 BTC?
 
 A classic example.
 
-To convert a temperature of F degrees Fahrenheit into Celsius, use
+To convert a temperature of *F* degrees Fahrenheit into Celsius, use
 
-    C = (F - 32) * (5 / 9)
-    
+```
+C = (F - 32) * (5 / 9)
+```
+
 Write a program that can perform this temperature conversion. What is
 the conversion for 85 degrees Fahrenheit?
 
