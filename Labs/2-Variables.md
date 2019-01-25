@@ -71,7 +71,7 @@ Modify the rectangle area program to print a text string along with the output v
 
 ## Smoots II
 
-Recall the story of Oliver R. Smoot from the last lab. The Harvard Bridge (2035 feet in length) was measured to be 364.4 Smoots "plus or minus one ear".
+Recall the story of Oliver R. Smoot from the last lab. The Harvard Bridge (2035 feet in length) was measured to be 364.4 Smoots, "plus or minus one ear".
 
 The Burj Khalifa is the tallest tower in the world, measuring 2722 feet to its top spire. What is the height of the Burj Khalifa in Smoots?
 
