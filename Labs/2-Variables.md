@@ -66,7 +66,7 @@ You can extend this idea to print multiple values at the same time:
 System.out.println("The area of a circle with radius " + radius + " is " + circleArea + ".");
 ```
 
-Modify the rectangle area program to print an output message like in the example above.
+Modify the rectangle area program to print an text string along with the output value.
 
 
 ## Smoots II
@@ -82,9 +82,7 @@ Tip: you don't strictly need them for this problem, but please use variables for
 
 ## I Should Have Bought Ten Years Ago
 
-Bitcoin is currently trading at a rate of about 3583.56 U.S. Dollars to 1 Bitcoin
-    
-Write a program that can convert a number of Bitcoins to dollars. Use `final double` to represent the exchange rate.
+Bitcoin is currently trading at a rate of about 3583.56 U.S. Dollars to 1 Bitcoin. Write a program that can convert a number of Bitcoins to dollars. Use a `final double` variable to represent the exchange rate.
 
 How many dollars are obtained by exchanging .25 BTC?
 
@@ -177,9 +175,7 @@ Tip-Tip: use `Math.sqrt()` to calculate the square root.
 
 ## Exchange Rates II
 
-During a period of hyperinflation last year, the Venezuelan Bolivar was trading at a rate of 248,487 Bolivars to 1 U.S. dollar
-    
-Write a program that can calculate the number of Bolivars in 1 million U.S. dollars.
+During a period of hyperinflation last year, the Venezuelan Bolivar was trading at a rate of 248,487 Bolivars to 1 U.S. dollar. Write a program that can calculate the number of Bolivars in 1 million U.S. dollars.
 
 Hint: if you get a weird answer, think carefully about the type of your output variable. You might need something with a *longer* 
 range...
