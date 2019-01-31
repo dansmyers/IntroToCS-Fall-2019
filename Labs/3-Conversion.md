@@ -33,7 +33,7 @@ This is another assignment. The left side is a `String` variable named `line`. T
 which will read one line of text from the terminal. When the user presses ENTER, `nextLine` returns whatever was typed and the statement 
 saves it to the `line` variable.
 
-Here was the basic `Echo` program we built last time. The first line uses `import` to get access to `Scanner`.
+Here is the basic `Echo` program we built last time. The first line uses `import` to get access to `Scanner`.
 
 ```
 // Read a line from the terminal and echo it back
