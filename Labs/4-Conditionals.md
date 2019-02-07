@@ -1,13 +1,5 @@
 # Conditionals
 
-## Review
-
-## Running Your Programs from the Terminal
-
-## Directories
-
-Recall that your 
-
 ## Finishing up RPS
 
 In the last class, we put together a program that used the logical `and` operator, `&&`, to test two conditions at the same time:
@@ -91,21 +83,13 @@ If `x % 2 == 0`, then `x` is evenly divisible by 2 (it has no remainder). If the
 
 ## Cho-Han
 
-*Cho-han* is a traditional Japanese dice game. The rules are simple:
+*Cho-han* is a traditional Japanese dice game. The rules of the game are simple:
 
-- The player bets if the roll of two six-sided dice will come up odd or even
+- The player bets if the sum of two six-sided dice will be odd or even.
 
 - If the player's guess is correct, he wins. If not, he loses.
 
-Zaotichi the blind swordsman is a Japanese fictional character, the subject of dozens of movies and TV episodes produced in the mid-20th Century. The character has influenced depictions of other fictional wandering heros who hide their true fighting power, but are drawn into conflict to protect innocent people.
-
-![](https://upload.wikimedia.org/wikipedia/en/f/f0/Zatoichi_017.jpg)
-
-(Poster of the 2003 movie *Zatoichi*. It's pretty good.)
-
-The typical Zatoichi movie has the character wander from place-to-place, before being drawn into conflict with a local *Yakuza* gang that is exploiting the population. Zatoichi defeats the gangsters, then moves on to the next town. Despite his lack of sight, Zatoichi is prodigiously talented with the sword and is essentially unbeatable in combat.
-
-A common scene in the movies has Zatoichi win money by gambling at *cho-han*, making his bets by listening to the fall of the dice.
+The game is frequently depicted in Japanese movies set in historical periods, where it's played by *Yakuza* gangsters and wandering samurai.
 
 Write a program for *cho-han*. Your program should prompt the user to choose an even or odd bet, then simulate the roll of two dice and announce if the player was correct.
 
