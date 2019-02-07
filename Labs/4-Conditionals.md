@@ -33,9 +33,8 @@ if (playerMove < 1 || playerMove > 3) {
 
 The logical `or` operator, represented by `||`, returns `true` if **at least one or both** of its inputs are `true`.
 
-
-## 
-
+Note that you can't test for a range in one statement, like `1 < playerMove < 3`, even though it's common mathematically. You must use
+the logical operators to combine the results of more than one test.
 
 
 ## Printing an Object
@@ -88,3 +87,45 @@ How can you test for oddness? Use the mod oeprator, `%`, which you might remembe
 ```
 
 If `x % 2 == 0`, then `x` is evenly divisible by 2 (it has no remainder). If the mod calculation returns 1, then `x` must be odd.
+
+
+## Cho-Han
+
+*Cho-han* is a traditional Japanese dice game. The rules are simple:
+
+- The player bets if the roll of two six-sided dice will come up odd or even
+
+- If the player's guess is correct, he wins. If not, he loses.
+
+Zaotichi the blind swordsman is a Japanese fictional character, the subject of dozens of movies and TV episodes produced in the mid-20th Century. The character has influenced depictions of other fictional wandering heros who hide their true fighting power, but are drawn into conflict to protect innocent people.
+
+![https://upload.wikimedia.org/wikipedia/en/f/f0/Zatoichi_017.jpg]
+
+(Poster of the 2003 movie *Zatoichi*. It's pretty good.)
+
+The typical Zatoichi movie has the character wander from place-to-place, before being drawn into conflict with a local *Yakuza* gang that is exploiting the population. Zatoichi defeats the gangsters, then moves on to the next town. Despite his lack of sight, Zatoichi is prodigiously talented with the sword and is essentially unbeatable in combat.
+
+A common scene in the movies has Zatoichi win money by gambling at *cho-han*, making his bets by listening to the fall of the dice.
+
+Write a program for *cho-han*. Your program should prompt the user to choose an even or odd bet, then simulate the roll of two dice and announce if the player was correct.
+
+```
+1. Even
+2. Odd
+Select a bet:
+1
+The dice are 4 and 3.
+You lose.
+```
+
+Tip: you can use the `nextInt` method of the `Random` class to generate a random `int` in the range [1, 6]:
+
+```
+import java.util.Random;  // Put this at the top of the program
+
+// In main:
+Random rng = new Random();
+int die1 = rng.nextInt(5) + 1;  // random value in [0, 5] + 1
+int die2 = rng.nextInt(5) + 1;  // random value in [0, 5] + 1
+```
+
