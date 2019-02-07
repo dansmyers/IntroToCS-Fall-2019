@@ -99,7 +99,7 @@ If `x % 2 == 0`, then `x` is evenly divisible by 2 (it has no remainder). If the
 
 Zaotichi the blind swordsman is a Japanese fictional character, the subject of dozens of movies and TV episodes produced in the mid-20th Century. The character has influenced depictions of other fictional wandering heros who hide their true fighting power, but are drawn into conflict to protect innocent people.
 
-![https://upload.wikimedia.org/wikipedia/en/f/f0/Zatoichi_017.jpg]
+![](https://upload.wikimedia.org/wikipedia/en/f/f0/Zatoichi_017.jpg)
 
 (Poster of the 2003 movie *Zatoichi*. It's pretty good.)
 
