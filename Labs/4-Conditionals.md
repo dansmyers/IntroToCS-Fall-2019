@@ -29,6 +29,10 @@ Note that you can't test for a range in one statement, like `1 < playerMove < 3`
 the logical operators to combine the results of more than one test.
 
 
+## Play RPS
+
+Once you have the RPS program finished, you and your partner can take turns playing a few rounds. Fix any bugs you encounter or any stylistic elements that you don't like.
+
 ## Printing an Object
 
 Write a program containing this code fragment and see what happens when you run it.
