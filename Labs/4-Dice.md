@@ -177,5 +177,5 @@ You win!
 Tip: both bets lose if the result is a triple, so you can test for that first, then move on to the test the sum if the result is *not* a triple. To test for a triple, you need the logical `and` of three comparisons
 
 ```
-die1 == die2 AND die2 == die2 AND die1 == die3
+die1 == die2 AND die2 == die3 AND die1 == die3
 ```
