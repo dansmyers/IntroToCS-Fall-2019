@@ -1,5 +1,9 @@
 # Conditionals
 
+## Overview
+
+Work in pairs for today's lab.
+
 ## Finishing up RPS
 
 In the last class, we put together a program that used the logical `and` operator, `&&`, to test two conditions at the same time:
