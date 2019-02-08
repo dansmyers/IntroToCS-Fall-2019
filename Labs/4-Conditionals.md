@@ -29,6 +29,34 @@ Note that you can't test for a range in one statement, like `1 < playerMove < 3`
 the logical operators to combine the results of more than one test.
 
 
+## Using `final` Variables for Clarity
+
+Here's one more improvement that you can make to the RPS program. Right now, each move is associated with a number: 1 for rock, 2 for paper, and 3 for scissors. This leads to conditionals like the following:
+
+```
+if (playerMove == 1 && cpuMove == 3) {
+    playerWin = true;
+}
+```
+
+This is okay, but we can make the code more readable by using constant variables instead of numbers. Add the following lines to the top of `main`:
+
+```
+final int ROCK = 1;
+final int PAPER = 2;
+final int SCISSORS = 3;
+```
+
+Recall that `final` variables can't change once they've been assigned and are traditionally named in ALL CAPS.
+
+Now, you can rewrite the conditional statements with the constant names, which makes it easier to understand what's going on:
+
+```
+if (playerMove == ROCK && cpuMove == SCISSORS) {
+    playerWin = true;
+}
+```
+
 ## Play RPS
 
 Once you have the RPS program finished, you and your partner can take turns playing a few rounds. Fix any bugs you encounter or any stylistic elements that you don't like.
