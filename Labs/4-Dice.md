@@ -151,6 +151,8 @@ int die1 = rng.nextInt(5) + 1;  // random value in [0, 5] + 1
 int die2 = rng.nextInt(5) + 1;  // random value in [0, 5] + 1
 ```
 
+Notice that you only need to create **one `Random` object**. You'll get a new random value each time you call `nextInt`.
+
 ## Sic Bo
 
 *Sic bo* ("dice pair") is another dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: players roll three dice and bet on the outcome.
