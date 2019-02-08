@@ -70,32 +70,34 @@ Once you have the RPS program finished, you and your partner can take turns play
 Write a program containing this code fragment and see what happens when you run it.
 
 ```
-Scanner in = new Scanner(System.in);
+import java.util.Random;  // put this at the top of your program
 
-// Print a Scanner object -- what's displayed?
-System.out.println(in);
+Random rng = new Random();
+
+// Print a Random object -- what's displayed?
+System.out.println(rng);
 ```
 
 You should see an output that looks like
 
 ```
-Scanner@2f92e0f4
+java.util.Random@2f92e0f4
 ```
 
 The exact sequence of letters and numbers will be different.
 
-What's going on? When you print an object, Java prints the class name (`Scanner`, in this case) and the object's **hashcode**, which is based on the address in the computer's memory where the object is stored.
+What's going on? When you print an object, Java prints the class name (`Random`, in this case) and the object's **hashcode**, which is based on the address in the computer's memory where the object is stored.
 
 Try modifying your program to create and print a second `Scanner`:
 
 ```
-Scanner in = new Scanner(System.in);
-System.out.println(in);
-Scanner in2 = new Scanner(System.in);
-System.out.println(in2);
+Random rng = new Random();
+System.out.println(rng);
+Random rng2 = new Random();
+System.out.println(rng2);
 ```
 
-You should see that the two `Scanner` objects have different hash codes. They were created by two different calls to the constructor method using the `new` keyword to allocate memory each time. Therefore, even though they are the same class of object, they are stored at **distinct locations in memory**.
+You should see that the two `Random` objects have different hash codes. They were created by two different calls to the constructor method using the `new` keyword to allocate memory each time. Therefore, even though they are the same class of object, they are stored at **distinct locations in memory**.
 
 
 ## Even or Odd
