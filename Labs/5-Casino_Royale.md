@@ -20,7 +20,7 @@ Welcome to the Casino!
 2. Slots
 3. Matching Pennies
 4. Sic Bo
-5. 
+5. Roulette
 Please select a game:
 1
 
