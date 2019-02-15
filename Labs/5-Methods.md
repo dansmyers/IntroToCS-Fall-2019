@@ -28,7 +28,7 @@ public class Hello100 {
 }
 ```
 
-## Say Whatever
+## Whatever You Say
 
 Create a new called `Whatever100.java`. The methods it contains should be the same as `Hello100`, but each method should take an input `String` that it prints.
 
