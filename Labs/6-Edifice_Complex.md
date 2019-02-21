@@ -107,7 +107,7 @@ for (int level = 0; level < height; level++) {
     
     // Use a loop to print the blocks on the current line
     
-    // Update the number of spaces and blocks
+    // Update the number of spaces and blocks for the next line
 
 }
 ```
