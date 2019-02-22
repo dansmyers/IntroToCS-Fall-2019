@@ -30,6 +30,23 @@ sum = sum + i;
 
 can be read as "take the current value of `sum`, add the current value of `i`, and put the result back into `sum`".
 
+## Files
+
+Create a new directory named `ForLoopLab` for this lab and put a file into it named `Buildings.java`.
+
+When you open your terminal, use `cd` to change to the directory:
+
+```
+cd ForLoopLab
+```
+
+Then use `javac` and `java` to compile and run your code:
+
+```
+javac Buildings.java
+java Buildings
+```
+
 ## Tower of Power
 
 Write a program that uses a `for` loop to print a tower like the following:
@@ -48,6 +65,18 @@ Write a program that uses a `for` loop to print a tower like the following:
 I'd also like to be able to control the height of the tower using a variable, so I can make bigger or smaller towers depending on how my day is going. Modify your loop to use a variable to control the number of iterations.
 
 
+## Tower II
+
+I want to build tower after tower, so I want a tower-printing method. Write a program that completes the method below, then calls it from `main` to print a 1-line tower, a 12-line tower, and a 50-line tower.
+
+```
+public static void printTower(int height) {
+
+
+}
+```
+
+
 ## Stairs
 
 Write a program that can print a descending staircase like the one below, using a loop with a variable to control the height.
@@ -62,18 +91,22 @@ Write a program that can print a descending staircase like the one below, using 
 
 If the first line is numbered 1, then line `i` contains `i` blocks.
 
+Put your code in a `void` method named `buildStairs`.
+
 Tip: use one outer loop to count through the levels and a second **inner** loop to print the number of blocks on each line.
 
 Tip-Tip: the loop below starts at `level = 0` and runs as long as `level < height`. This is the more common way to do a basic counting loop, rather than starting at 1 and using a `<=` test. This will come up again when we talk about arrays.
 
 ```
-for (int level = 0; level < height; level++) {
+public static void buildStairs(int height) {
+    for (int level = 0; level < height; level++) {
 
-    for ( something that you'll fill in ) {
-        System.out.print("#");  // print on the same line
-    }
+        for ( something that you'll fill in ) {
+            System.out.print("#");  // print on the same line
+        }
     
-    System.out.println();  // go to the next line
+        System.out.println();  // go to the next line
+    }
 }
 ```
 
@@ -91,24 +124,25 @@ At the end of each level in the original *Super Mario Bros.*, Mario jumps up a s
 #######
 ```
 
-Write a set of loops that print Mario-style stairs of arbitrary height.
+Write a set of loops that print Mario-style stairs of arbitrary height. Put your code in a `void` method named `buildMarioStairs`.
 
 Tip: the first line has `height - 2` spaces and 2 blocks. The second line has `height - 3` spaces and 3 blocks.
 
 
 ```
-int height = 6;
-int numSpaces = height - 2;
-int numBlocks = 2;
+public static void buildMarioStairs(int height) {
+    int numSpaces = height - 2;
+    int numBlocks = 2;
 
-for (int level = 0; level < height; level++) {
+    for (int level = 0; level < height; level++) {
 
-    // Use a loop to print the spaces on the current line
+        // Use a loop to print the spaces on the current line
     
-    // Use a loop to print the blocks on the current line
+        // Use a loop to print the blocks on the current line
     
-    // Update the number of spaces and blocks for the next line
+        // Update the number of spaces and blocks for the next line
 
+    }
 }
 ```
 
@@ -129,36 +163,12 @@ Use a similar strategy as the Mario-stairs program: an outer loop for the levels
 
 The first level has `height - 1` spaces and 1 star. The second has `height - 2` spaces and 3 stars.
 
-
-## Tower II
-
-I want to build tower after tower, so I want a tower-printing method. Write a program that completes the method below, then calls it from `main` to print a 1-line tower, a 12-line tower, and a 50-line tower.
-
-```
-public static void printTower(int height) {
+Put your code in a method named `buildPyramid`.
 
 
-}
-```
+## Project Euler #1
 
+Project Euler is a site that hosts a large list of math-based programming problems. This is their first challenge.
 
-## Baby Needs a New Pair of Shoes
-
-Write a loop that simulates 10000 rolls of a six-sided die and reports their average.
-
-To generate the rolls create a method that returns an `int` in [1, 6]:
-
-```
-public static int rollDie() {
-
-    // Generate and return an int in [1, 6]
-
-}
-```
-
-Your simulation loop (in `main`) should run for 10000 iterations. On each iteration, call `rollDie` and add the result to an accumulated `sum` variable. After the loop ends, divide the `sum` by 10000 to get the average.
-
-Tip: use a `double` value for the average because it might not be a whole number.
-
-Once you have the result, modify your program to find the average of rolling two dice. This should require only a tiny change of one or two lines.
+Find the sum of all positive integers less than 10000 that are divisible by 3 or 5.
 
