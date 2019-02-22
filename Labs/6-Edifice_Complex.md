@@ -32,7 +32,7 @@ can be read as "take the current value of `sum`, add the current value of `i`, a
 
 ## Files
 
-Create a new directory named `ForLoopLab` for this lab and put a file into it named `Buildings.java`.
+Create a new directory named `ForLoopLab` for this lab and put a file into it named `Buildings.java`. You'll write a method for each problem in this lab, so you can put all of your code in `Buildings.java`.
 
 When you open your terminal, use `cd` to change to the directory:
 
