@@ -57,4 +57,148 @@ for (int i = 0; i < dArr.length; i++) {
 System.out.println();
 ```
 
+Another common pattern is looping over an array to **reduce** its values into one output, such as a sum:
 
+```
+int sum = 0;
+for (int i = 0; i < dArr.length; i++) {
+  sum += dArr[i];
+}
+```
+
+## Questions
+
+Write a program with a method that completes each task.
+
+### The Arrays Class
+
+We wrote a method to print arrays in our last class. Java includes a helpful bulit-in class called `Arrays` that can help with some
+of those common tasks. To get access to it, put `import java.util.Arrays` at the top of your program.
+
+The `Arrays` class has a `toString` method that turns an input array into a nicely-formatted `String`. Here's how to use it for printing:
+
+```
+import java.util.Arrays;
+
+public class PrintArrayExample {
+
+  public static void main(String[] args) {
+    int[] a = new int[3];
+    a[0] = 3;
+    a[1] = 2;
+    a[2] = 1;
+    
+    System.out.println(Arrays.toString(a));
+  }
+}
+```
+
+You can use this whenever you need to print an array, rather than writing a loop.
+
+
+### Product of Elements
+
+Write a method called `product` that takes an `int[]` as input and returns the product of its elements as an `int`. Here is a shell program to help you get started.
+
+```
+public class ArrayProduct {
+  
+  //*** Product of array elements ***//
+  //
+  // input: an integer array a
+  // output: the integer product of a's elements
+  public static int product(int[] a) {
+  
+  }
+
+  public static void main(String[] args) {
+    // Create a new integer array
+    
+    // Fill it with test values
+    
+    // Call the sum method
+  }
+  
+}
+```
+
+### Add Two Arrays
+
+Write a program with a method named `arraySum` that takes two integer arrays as input and returns a new array containing sums of each pair of elements. You can assume the arrays are the same size.
+
+Tip:
+
+You can't add arrays by their name!
+
+```
+int[] newArray = new int[a.length];  // This line is good
+
+newArray = a + b;  // COMPILER DOES NOT WANT
+```
+
+You need to use a loop to add each pair of elements.
+
+```
+public static int[] arraySum(int[] a, int[] b) {
+
+  // Create a new array with the same length as a
+  
+  // Use a loop to sum up corresponding elements of a and b
+  
+}
+```
+
+### Count Zeros
+
+Write a program with a method called `countZeros` that takes an `int[]` as input and counts up and returns the number of zeros in the array.
+
+Tip: loop over the array, like in the other problems, and use an `if` statement to test if `a[i] == 0`.
+
+### Banana? Banana!
+
+Write a program with a method called `hasBanana` that takes a **`String[]`** as input and returns `true` if the array contains the word
+`banana` and `false` otherwise.
+
+Tip: to compare `String`s by value, use
+
+```
+if (a[i].equals("banana")) {
+  return true;
+}
+```
+
+Test your method using a `String[]` that contains `banana` and one that doesn't.
+
+### Command-Line Arguments
+
+Implement the following program:
+
+```
+// Using command-line arguments
+// CMS 167, Spring 2019
+
+public class CommandLineArgs {
+
+  public static void main(String[] args) {
+    System.out.println("args[0] = " + args[0]);
+    System.out.println("args[0] = " + args[1]);
+    System.out.println("args[0] = " + args[2]);
+  }
+  
+}
+```
+
+To run the program, use
+
+```
+javac CommandLineArgs.java
+java CommandLineArgs kiwi lime guava
+```
+
+The command line arguments are the additional strings passed in after the program name in the second line (`kiwi`, `lime`, `guava`). These string values are gathered into the `args` array in the order they're given.
+
+Therefore, printing `args[0]` prints the first command line argument, which is `kiwi` in this example.
+
+### Command-Line Bananas
+
+Modify the above program to check if the word `banana` is passed into the program from the command line.
