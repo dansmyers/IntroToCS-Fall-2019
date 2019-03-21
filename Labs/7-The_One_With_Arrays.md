@@ -1,4 +1,4 @@
-# Arrays
+# The One With Arrays
 
 ## Review
 
