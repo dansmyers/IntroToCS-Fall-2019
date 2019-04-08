@@ -10,9 +10,9 @@ To implement this, we're going to introduce two more tools. The first is a libra
 
 ## Get BlueJ
 
-Go to (www.bluej.org)[the BlueJ homepage]. Download the appropriate version for your operating system (Mac or Windows). Open the ZIP file into a location that you can remember. Click on the BlueJ logo to launch the program.
+Go to [the BlueJ homepage](www.bluej.org). Download the appropriate version for your operating system (Mac or Windows). Open the ZIP file into a location that you can remember. Click on the BlueJ logo to launch the program.
 
-**If you get an error about Java's JDK**, let me know. You probably need to download a JDK ("Java Development Kit") from (https://www.oracle.com/technetwork/java/javase/downloads/index.html)[this site].
+**If you get an error about Java's JDK**, let me know. You probably need to download a JDK ("Java Development Kit") from [this site](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
 The first thing you need to do is create a **project**. From the main BlueJ screen, go to Project --> New Project. In the panel that appears, use the "Choose" button to select a directory where you want to put your BlueJ projects. Then type a name for the project like `CMS_167_Graphics_Lab` and hit OK.
 
