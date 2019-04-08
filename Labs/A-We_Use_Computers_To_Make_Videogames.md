@@ -10,7 +10,7 @@ To implement this, we're going to introduce two more tools. The first is a libra
 
 ## Get BlueJ
 
-Go to [the BlueJ homepage](www.bluej.org). Download the appropriate version for your operating system (Mac or Windows). Open the ZIP file into a location that you can remember. Click on the BlueJ logo to launch the program.
+Go to [the BlueJ homepage](https://www.bluej.org). Download the appropriate version for your operating system (Mac or Windows). Open the ZIP file into a location that you can remember. Click on the BlueJ logo to launch the program.
 
 **If you get an error about Java's JDK**, let me know. You probably need to download a JDK ("Java Development Kit") from [this site](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
