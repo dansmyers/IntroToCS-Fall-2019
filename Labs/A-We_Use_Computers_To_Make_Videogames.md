@@ -67,7 +67,7 @@ You should see a window appear with a ball in a fixed location.
 
 ## Follow the Bouncing Ball
 
-Let's git into the code and start making some improvements.
+Let's dig into the code and make some improvements.
 
 ### The Basic Animation Loop
 
