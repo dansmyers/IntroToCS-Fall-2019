@@ -64,3 +64,84 @@ Click on the "Compile" button. You can use the button in the `BouncingBall` wind
 When the compilation is successful, right-click (or CTRL-click on Mac) on the `BouncingBall` rectangle in the main project window. A list of methods will appear: select `main`. Press OK on the next window to run the program.
 
 You should see a window appear with a ball in a fixed location.
+
+## Follow the Bouncing Ball
+
+Let's git into the code and start making some improvements.
+
+### The Basic Animation Loop
+
+The program runs an infinite `while` loop. There are three relevant methods:
+
+- `StdDraw.clear()`, to clear the screen at the beginning of each loop. This is always the first method called in the animation loop.
+- `StdDraw.filledCircle(x, y, radius)` places the ball at center `(x, y)` with the specified `radius`.
+- `StdDraw.show(10)` draws all changes made during the loop to the window, then pauses for 10 ms. This is always the last method called
+in the animation loop. Changing the argument will increase or decrease the frames of animation per second.
+
+### Colors
+
+Let's give the ball a color. Declare three `int` values right after the ball's position, before the main animation loop.
+
+```
+int red = 75;
+int green = 50;
+int blue = 200;
+```
+
+Add the following statement right before `StdDraw.filledCircle()`:
+
+```
+StdDraw.setPenColor(red, green, blue);
+```
+
+Experiment with changing the three values. What effect does this have on the ball?
+
+Colors are represented as red-green-blue triples. Each value is in the range 0-255 (the range of a single byte). Just like mixing paints, mixing the three basic colors in different strengths yields different resulting colors. [Here's a tool](https://htmlcolorcodes.com/color-picker/) you can play with to get the RGB values for any color.
+
+### Motion
+
+Moving the ball is straightforward: change its `(x, y)` position on each iteration of the loop. Declare two more variables at the beginning of the program to represent the ball's velocity:
+
+```
+double dx = -.0025;
+double dy = .001;
+```
+
+Next, inside the animation loop, update the values of `x` and `y`. Make this the last thing you do before calling `StdDraw.show`.
+
+```
+x += dx;
+y += dy;
+```
+
+Run the program. It looks great, but the ball flies off the edge of the screen!
+
+To add reflection, check if the outside of the ball has reached the edge of the screen. If so, reverse the velocity component to make
+it move the other way:
+
+```
+if ( x + radius >= 1.0 || x - radius <= 0.0) {
+    dx = -dx;
+}
+```
+
+Put this statement right before you update the values of `x` and `y`. Add another `if` statement to get reflection on the top and bottom edges.
+
+### Takeaways
+
+How many parameters are required to describe the ball, its color, and its motion?
+
+What if you wanted to add a second ball? How many additional variables would you need to add? How would you modify the program to deal 
+with those extra variables?
+
+What if you wanted a huge number of balls, each with its own position, color, and velocity, and you wanted that number to be determined
+at runtime (not hard-coded)? You can't declare independent variables for each ball, because you don't know how many balls there will be, 
+and you can't manage hundreds of separate variables in the program.
+
+What we need is a way to **group related variables together**.
+
+## Screen Saver
+
+Modify the program to make a screen saver of your choice.
+
+Start by making the ball switch to a random color every time it hits an edge.
