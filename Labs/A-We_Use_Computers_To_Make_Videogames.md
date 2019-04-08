@@ -142,6 +142,4 @@ What we need is a way to **group related variables together**.
 
 ## Screen Saver
 
-Modify the program to make a screen saver of your choice.
-
-Start by making the ball switch to a random color every time it hits an edge.
+After you finish the main lab, modify the program to make a screen saver of your choice. Start by making the ball switch to a random color every time it hits an edge.
