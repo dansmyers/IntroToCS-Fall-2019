@@ -138,7 +138,7 @@ What if you wanted a huge number of balls, each with its own position, color, an
 at runtime (not hard-coded)? You can't declare independent variables for each ball, because you don't know how many balls there will be, 
 and you can't manage hundreds of separate variables in the program.
 
-What we need is a way to **group related variables together**.
+What we need is a way to **group related variables together**. Does that sound familiar?
 
 ## Screen Saver
 
