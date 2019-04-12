@@ -30,7 +30,7 @@ public class SecretCollect {
             
             // Draw
             p.draw();
-            s.draw();
+            goal.draw();
             
             StdDraw.show(10);  
         }
@@ -89,7 +89,7 @@ public class Square {
     // Radius (half-width) of the square
     private double radius;
 
-    public Player() {
+    public Square() {
         this.x = .90;
         this.y = .90;
         this.radius = .025;
