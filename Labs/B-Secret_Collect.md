@@ -200,4 +200,15 @@ Here's an extra challenge if you get all of that done.
 
 Add a `Ball` to the game and give it a `collidesWith` method, identical to the one from the `Square` class. Test if the player collides with the `Ball` on each iteration.
 
+Here's a last idea to make a complete game: when the player touches the goal square, don't immediately end the game. Instead, generate a new random goal position:
+
+```
+if (goal.collidesWith(p)) {
+    goal.newPosition();  // generate a new random (x, y) position for the square
+}
+```
+
+Now the game is about grabbing as many squares as you can while dodging all of the balls.
+
 How about lots of balls?
+
