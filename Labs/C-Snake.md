@@ -71,6 +71,9 @@ public class Square {
     }
     
     //*** Get the center and edge positions ***//
+    //
+    // The edge positions are inset just a little from their true locations
+    // This prevents accidental overlaps for contiguous squares
     
     public double getX() {
         return this.x;   
@@ -81,19 +84,19 @@ public class Square {
     }
     
     public double right() {
-        return this.x + this.RADIUS;
+        return this.x + this.RADIUS - .001;
     }
     
     public double left() {
-        return this.x - this.RADIUS;
+        return this.x - this.RADIUS + .001;
     }
     
     public double top() {
-        return this.y + this.RADIUS;
+        return this.y + this.RADIUS - .001;
     }
     
     public double bottom() {
-        return this.y - this.RADIUS;
+        return this.y - this.RADIUS + .001;
     }
     
     //*** Check for collisions with another square ***//
@@ -213,7 +216,7 @@ Snake is moving right  ---->
 Here is the basic code to move the snake right. The only slightly tricky part is calculating the position of the new head square.
 
 ```
-public void update() {
+public void update(Square pellet) {
 
     // Get the current head
     Square head = this.body.get(0);
@@ -251,7 +254,7 @@ Test your code by changing the `direction` parameter in the constructor.
 To allow the player to control the snake, we need to add code that checks for key presses and changes the `direction` appropriately. Add ode to check fro key presses to the beginning of the `update` method:
 
 ```
-public void update() {
+public void update(Square pellet) {
 
     // Check for direction changes
     if (StdDraw.isKeyPressed(KeyEvent.VK_RIGHT)) {
