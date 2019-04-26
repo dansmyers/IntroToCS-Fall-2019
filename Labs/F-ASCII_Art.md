@@ -8,7 +8,7 @@ For this homework, you'll be writing a program to uncompress a text file and gen
 
 ![very complex](https://upload.wikimedia.org/wikipedia/commons/4/4a/Wikipedia-Ascii.png).
 
-![](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjzy__a-e3hAhUEmlkKHWwpCuAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.deviantart.com%2Fpulvinar%2Fart%2FAscii-Star-Trek-Facepalm-159257902&psig=AOvVaw1itM-hxuhw_U3g9v3jvKiq&ust=1556374691760919)
+![](https%3A%2F%2Fwww.deviantart.com%2Fpulvinar%2Fart%2FAscii-Star-Trek-Facepalm-159257902&psig=AOvVaw1itM-hxuhw_U3g9v3jvKiq&ust=1556374691760919)
 
 Compression is another fundamental concept in computer science.  Compression allows us to take very large data file and make them smaller and thus suitable for transmission via the internet.  Compression can be either *lossy* (meaning that a file cannot be uncompressed back into its original form) or lossless (meaning we can compress and then uncompress a file with no loss of data.
 
