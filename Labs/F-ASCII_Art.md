@@ -4,7 +4,9 @@
 
 In this lab, you'll be creating a program that can decompress some ASCII art
 
-For this homework, you'll be writing a program to uncompress a text file and generate ASCII art.  [ASCII art](https://en.wikipedia.org/wiki/ASCII_art) involves using characters to draw a graphic picture and can be [very simple](https://www.pinterest.com/pin/415034921881661984) or [very complex](https://upload.wikimedia.org/wikipedia/commons/4/4a/Wikipedia-Ascii.png).
+For this homework, you'll be writing a program to uncompress a text file and generate ASCII art.  [ASCII art](https://en.wikipedia.org/wiki/ASCII_art) involves using characters to draw a graphic picture and can be complex:
+
+![very complex](https://upload.wikimedia.org/wikipedia/commons/4/4a/Wikipedia-Ascii.png).
 
 ![](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjzy__a-e3hAhUEmlkKHWwpCuAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.deviantart.com%2Fpulvinar%2Fart%2FAscii-Star-Trek-Facepalm-159257902&psig=AOvVaw1itM-hxuhw_U3g9v3jvKiq&ust=1556374691760919)
 
