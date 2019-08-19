@@ -172,7 +172,7 @@ These penalties are cumulative. For example, if you failed to satisfactorily com
 |-----------------------------------------------------|------------------------------------------|
 | A challenge programming assignment (there will be at least two) | Half a letter grade                      |
 | An in-depth reflective writing assignment           | Half a letter grade                      |
-| A research project           | Half a letter grade                      |
+| A short research article teaching a feature of Java           | Half a letter grade                      |
 
 If your grade drops, you can still complete extra work to boost it up. For example, you could struggle with one project, but
 complete the reflective writing assignment. The two would cancel each other out and your grade would remain a B.
