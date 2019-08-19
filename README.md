@@ -12,11 +12,12 @@ dmyers@rollins.edu
 ## Office Hours
 Office hours for Fall 2019:
 
-- TIME
-- TIME
-- TIME
+- Monday 4:00 - 5:00
+- Tuesday 2:00 - 3:00
+- Wednesday 4:00 - 5:00
+- Thursday 2:00 - 3:00
 
-Meeting with students is my highest priority during these times. Feel free to come by **even if you don't have a question or a problem**.
+Meeting with students is my highest priority during these times. Feel free to come by **even if you don't have a question or a problem**. Please e-mail me if you'd like to schedule an appointment for a different time.
 
 I sometimes need to modify my schedule to account for meetings and other campus events.
 
@@ -76,7 +77,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 | 10/9         | Writing text games              | Midterm exam release              |
 | 10/10 (lab)  | Practice writing games          |                                   |
 | 10/14        | Fall Break                      | No class                          |
-| 10/16        | The `for` loo                   |                                   |
+| 10/16        | The `for` loop                  |                                   |
 | 10/17 (lab)  | Practice with loops             | Problem set 5 released            |
 | 10/21        | More on `for` loops             |                                   |
 | 10/23        | Traveling                       | No class                          |
