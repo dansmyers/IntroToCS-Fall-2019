@@ -58,45 +58,45 @@ We will also use Mimir as an online development and automatic grading platform. 
 | 8/28         | Printing and artihmetic         |                                   |
 | 8/29 (lab)   | Practice printing and arithmetic|                                   |
 | 9/2          | Labor Day                       | No class                          |
-| 9/4          | Variables                       |                                   |
+| 9/4          | Variables                       | Problem set 1 released            |
 | 9/5  (lab)   | Practice variables              |                                   |
 | 9/9          | Bits and bytes                  |                                   |
 | 9/11         | User input                      |                                   |
-| 9/12 (lab)   | Practice user input and variables |                                 |
+| 9/12 (lab)   | Practice user input and variables |  Problem set 2 released         |
 | 9/16         | Intro to methods                |                                   |
 | 9/18         | More methods                    |                                   |
-| 9/19 (lab)   | Practice writing methods        |                                   |
+| 9/19 (lab)   | Practice writing methods        | Problem set 3 released            |
 | 9/23         | Conditional execution           |                                   |
 | 9/25         | More conditional execution      |                                   |
-| 9/26 (lab)   | Combining methods and conditionals |                                |
+| 9/26 (lab)   | Combining methods and conditionals | Problem set 4 released         |
 | 9/30         | Methods that take inputs        |                                   |
 | 10/2         | More methods that take inputs   |                                   |
-| 10/3 (lab)   | Even more practice with methods |                                   |
+| 10/3 (lab)   | Even more practice with methods | Major project 1 released          |
 | 10/7         | The `while` loop                |                                   |
-| 10/9         | Writing text games              | Midterm exam out                  |
+| 10/9         | Writing text games              | Midterm exam release              |
 | 10/10 (lab)  | Practice writing games          |                                   |
 | 10/14        | Fall Break                      | No class                          |
 | 10/16        | The `for` loo                   |                                   |
-| 10/17 (lab)  | Practice with loops             |                                   |
+| 10/17 (lab)  | Practice with loops             | Problem set 5 released            |
 | 10/21        | More on `for` loops             |                                   |
 | 10/23        | Traveling                       | No class                          |
 | 10/24 (lab)  | Traveling                       | No lab                            |
 | 10/28        | Arrays                          |                                   |
 | 10/30        | More arrays                     |                                   |
-| 10/31 (lab)  | Practice with arrays            |                                   |
+| 10/31 (lab)  | Practice with arrays            | Problem set 6 released            |
 | 11/4         | Strings                         |                                   |
 | 11/6         | Useful string methods           |                                   |
 | 11/7 (lab)   | Practice with strings           |                                   |
 | 11/11        | Dr. Myers' choice               |                                   |
-| 11/13        | File input                      |                                   |
+| 11/13        | File input                      | Major project 2 released          |
 | 11/14 (lab)  | Practice with files             |                                   |
 | 11/18        | Intro to objects and classes    |                                   |
 | 11/20        | Class variables                 |                                   |
-| 11/21 (lab)  | Practice writing objects        |                                   |
+| 11/21 (lab)  | Practice writing classes        | Problem set 7 released            |
 | 11/25        | Class methods                   |                                   |
-| 11/27        | Designing classes               |                                   |
-| 11/28 (lab)  | Practice writing classes        |                                   |
-| 12/2         | Topic                           |                                   |
+| 11/27        | Thanksgiving                    | No class                          |
+| 11/28 (lab)  | Thanksgiving                    | No lab                            |
+| 12/2         | Topic                           | Final project released            |
 | 12/4         | Topic                           |                                   |
 | 12/5 (lab)   | Exam review                     |                                   |
 
