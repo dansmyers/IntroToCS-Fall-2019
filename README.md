@@ -23,7 +23,7 @@ I sometimes need to modify my schedule to account for meetings and other campus 
 
 ## Official Course Description
 
-**CMS 167 Problem Solving I**. Introduction to fundamental aspects of programming using high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 167L
+**CMS 167 Problem Solving I**. Introduction to fundamental aspects of programming using a high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 167L
 
 ## Learning Outcomes
 
