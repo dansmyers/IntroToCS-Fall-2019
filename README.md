@@ -31,7 +31,7 @@ At the end of this course, you will
 
 1. Be able to write programs using core features of the Java language, including variables, conditionals, methods, and loops.
 
-2. Be familiar with the principles of object-oriented programming and the advantages of using classes to organize programs.
+2. Be familiar with the principles of object-oriented programming and the use of classes in organizing programs.
 
 3. Be able to write programs that conform to a written specification and are evaluated using automated testing.
 
@@ -124,8 +124,12 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
+### Labs
+
+You must be registered for a section of CMS 167L. **Lab attendance** will count as part of your grade and you'll receive the same grade for both CMS 167 and CMS 167L. Most of our lab periods will be used for practice programming sections.
+
 ### Assignments and Scoring
-Your base grade will be based on five things:
+Your core grade will be based on five things:
 
 1. A set of autograded programming assignments. Each assigned homework problem will have one or more tests, which the Mimir system can automatically check against your solution code. Passing the test gives you credit for completing that problem. You can attempt each problem as many times as you want and the problems will remain open from the time they are posted until the day of the final exam, so you have the opportunity to revisit and complete problems that may have been too challenging when they were first assigned.
 2. Three major projects, one before the midterm, one in the middle of the second half, and one at the end of the course.
@@ -156,8 +160,8 @@ For any autograded problems, passing the test will indicate that your code is sa
 
 | For unsatisfactory performance on              | Your grade will be adjusted downwards by |
 |------------------------------------------------|------------------------------------------|
-| Completing less than 90% of autograded tests | Fracton of a letter grade (e.g. B to B-)       |
-| Completing less than 80%, 70%, etc. of autograded tests | Fracton of a letter grade for each 10%       |
+| Completing less than 90% of autograded tests | Fraction of a letter grade (e.g. B to B-)       |
+| Completing less than 80%, 70%, etc. of autograded tests | Fraction of a letter grade for each 10%       |
 | One major project                           | Fraction of a letter grade                      |
 | Additional major projects                   | A full letter grade                      |
 | The midterm exam                                | A full letter grade                    |
