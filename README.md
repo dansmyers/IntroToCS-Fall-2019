@@ -31,16 +31,18 @@ At the end of this course, you will
 
 1. Be able to write programs using core features of the Java language, including variables, conditionals, methods, and loops.
 
-2. Be able to write programs that conform to a written specification and are evaluated using automated testing.
+2. Be familiar with the principles of object-oriented programming and the advantages of using classes to organize programs.
 
-3. Understand and use methods of sound program design, such as abstraction and stepwise refinement, to design solutions to open-ended
+3. Be able to write programs that conform to a written specification and are evaluated using automated testing.
+
+4. Understand and use methods of sound program design, such as abstraction and stepwise refinement, to design solutions to open-ended
 programming problems.
 
-4. Read and comprehend program source code.
+5. Read and comprehend program source code.
 
-5. Be familiar with common terminology from computer science and programming.
+6. Be familiar with common terminology from computer science and programming.
 
-6. Be familiar with the fundamentals of computer organization, systems, and data representation.
+7. Be familiar with the fundamentals of computer organization, systems, and data representation.
 
 ## Textbook
 
