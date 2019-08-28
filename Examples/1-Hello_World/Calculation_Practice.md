@@ -14,7 +14,7 @@ where NAME is your name.
 
 Calculate
 ---------
-Write a program to perform the following calculations and prints the
+Write a program that performs the following calculation and prints the
 result
 
 ```
@@ -23,8 +23,8 @@ result
   2          3
 ```
 
-Pool
-----
+Pool Party
+----------
 The world's largest swimming pool is at the San Alfonso del Mar resort
 in Chile. It measures 3323 feet long, covers 20 acres, and contains
 about 66 million US gallons of water.
