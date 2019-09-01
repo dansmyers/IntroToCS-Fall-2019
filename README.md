@@ -58,7 +58,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 | Week of      | Topic                           | Notes                             |
 | -------------|---------------------------------|-----------------------------------|
 | 8/26         | Hello, World!                   |                                   |
-| 8/28         | Printing and artihmetic         |                                   |
+| 8/28         | Printing and arithmetic         |                                   |
 | 8/29 (lab)   | Practice printing and arithmetic|                                   |
 | 9/2          | Labor Day                       | No class                          |
 | 9/4          | Variables                       | Problem set 1 released            |
