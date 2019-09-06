@@ -16,14 +16,12 @@ public class RectangleArea {
     
     // To declare a variable, specify its type and a name
     // int is the basic type for an integer variable
-    
     int length;
     int width;
     
     // Use = to assign a value to a variable
     // The variable name is always on the left and the new value is on the right
     // Assignment *replaces* the old variable value with the new one
-    
     length = 25;
     width = 10;
     
