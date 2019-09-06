@@ -10,7 +10,7 @@
      double bitcoins = 1000.00; 
      double exchangeRate = 10866.70;
      
-     double dollars = dollars * exchangeRate;
+     double dollars = bitcoins * exchangeRate;
      
      System.out.println("$" + dollars + " is " + bitcoins + " BTC.");
    }
