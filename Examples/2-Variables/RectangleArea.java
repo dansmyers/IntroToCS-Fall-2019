@@ -4,7 +4,7 @@
 // Variables let you give names to data in your programs
 //
 // This is one of the most important programming features, because it
-// makes it possible to write large complex programs.
+// makes it possible to write large, complex programs.
 //
 // Good use of variables makes your programs easier to read and understand.
 
