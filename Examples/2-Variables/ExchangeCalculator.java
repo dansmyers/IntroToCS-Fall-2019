@@ -7,10 +7,10 @@
  public class ExchangeCalculator {
  
    public static void main(String[] args) {
-     double dollars = 1000.00; 
+     double bitcoins = 1000.00; 
      double exchangeRate = 10866.70;
      
-     double bitcoins = dollars * exchangeRate;
+     double dollars = dollars * exchangeRate;
      
      System.out.println("$" + dollars + " is " + bitcoins + " BTC.");
    }
