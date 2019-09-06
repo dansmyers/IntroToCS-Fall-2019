@@ -14,7 +14,7 @@ McChocolate Potatoes
 --------------------
 The Japanese yen currently trades for about $.0094.
 
-I'm a sucker for regional fast food items. It turns out that you can get **chocolate fries** at [https://www.eater.com/2016/1/19/10790586/mcdonalds-chocolate-fries-japan](McDonald's in Japan) (they are officially known
+I'm a sucker for regional fast food items. It turns out that you can get **chocolate fries** at [McDonald's in Japan](https://www.eater.com/2016/1/19/10790586/mcdonalds-chocolate-fries-japan) (they are officially known
 as "McChocolate Potatoes"). Are they any good? Maybe not, but they cost only 330 yen.
 
 What is the cost of a side of chocolate fries in dollars?
