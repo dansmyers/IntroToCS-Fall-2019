@@ -1,5 +1,17 @@
 # Variables Practice Problems
 
+Life on Mars
+------------
+The Martian day is about 2.7% longer than an Earth day.
+
+How many Earth seconds are in a Martian day? Use variables with descriptive names for all
+the quantities in your program.
+
+Tip: to make a number 2.7% larger, multiply it by 1.027.
+
+
+
+
 Division Bell
 --------------
 Calculate 15 / 4 using Java. What did you get? Is that right?
