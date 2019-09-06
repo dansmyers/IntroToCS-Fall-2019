@@ -55,16 +55,17 @@ Hint: make sure you don't get zero!
 
 Number Fail
 -----------
-Try the following calculation. Does it yield the EXACT correct result?
+Recall that all of the data in our Java programs must ultimately be stored on a real, physical computer. This implies that there must be **limitations** for the range and precision of values that can be represented in Java programs.
+
+Print the result of the following calculation:
 
 ```
-System.out.println(.1 + .2);
+double sum = .1 + .2;
 ```
 
-Java must store all of its data in a real physical computer. Because
-of the limitations of the physical machine, the data types used to
-represent fractional numbers may have very small errors, which can
-lead to tiny inaccuracies in calculations involving decimal values.
+What do you see?
 
-Experiment and find another calculation that gives a small numerical
-error.
+This is an example of **numerical error**: floating point numbers (like `double`) can only represent some numbers approximately, so 
+calculations involving fractions may have very small errors.
+
+Find another example using `double` arithmetic that doesn't give the exact result you would expect.
