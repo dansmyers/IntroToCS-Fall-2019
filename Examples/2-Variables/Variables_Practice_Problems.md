@@ -1,5 +1,6 @@
 # Variables Practice Problems
 
+
 Life on Mars
 ------------
 The Martian day is about 2.7% longer than an Earth day.
@@ -8,8 +9,6 @@ How many Earth seconds are in a Martian day? Use variables with descriptive name
 the quantities in your program.
 
 Tip: to make a number 2.7% larger, multiply it by 1.027.
-
-
 
 
 Division Bell
@@ -36,6 +35,22 @@ expressions yield the correct answers.
 
 Take-away: unless you **know** that you need integer division, always use a `double` variable or include decimal
 points in your numbers when performing division.
+
+
+Temperature Conversion
+----------------------
+A classic example.
+
+To convert a temperature of *F* degrees Fahrenheit into Celsius, use
+
+```
+C = (F - 32) * (5 / 9)
+```
+
+Write a program that can perform this temperature conversion. What is
+the conversion for 85 degrees Fahrenheit?
+
+Hint: make sure you don't get zero!
 
 
 Number Fail
