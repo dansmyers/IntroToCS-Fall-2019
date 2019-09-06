@@ -1,5 +1,23 @@
 # Variables Practice Problems
 
+Smoots II
+---------
+
+Recall the story of Oliver R. Smoot from the last lab. The Harvard Bridge (2035 feet in length) was measured to be 364.4 Smoots, "plus or minus one ear". One Smoot is about 5.5833 feet.
+
+The Burj Khalifa is the tallest tower in the world, measuring 2722 feet to its top spire. What is the height of the Burj Khalifa in Smoots?
+
+Add the string "plus or minus one ear" to your output.
+
+
+McChocolate Potatoes
+--------------------
+The Japanese yen currently trades for about $.0094.
+
+I'm a sucker for regional fast food items. It turns out that you can get **chocolate fries** at [https://www.eater.com/2016/1/19/10790586/mcdonalds-chocolate-fries-japan](McDonald's in Japan) (they are officially known
+as "McChocolate Potatoes"). Are they any good? Maybe not, but they cost only 330 yen.
+
+What is the cost of a side of chocolate fries in dollars?
 
 Life on Mars
 ------------
