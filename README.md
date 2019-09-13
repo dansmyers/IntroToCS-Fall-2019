@@ -1,6 +1,6 @@
-# CMS 167 Problem Solving I
+# CMS 120 Introduction to Computer Science
 
-## Fall 2019 Syllabus
+## Spring 2020 Syllabus
 
 ## Who? Where?
 
@@ -10,7 +10,7 @@ dmyers@rollins.edu
 407-646-2146
 
 ## Office Hours
-Office hours for Fall 2019:
+Office hours for Spring 2020:
 
 - Monday 4:00 - 5:00
 - Tuesday 2:00 - 4:00
@@ -22,7 +22,7 @@ I sometimes need to modify my schedule to account for meetings and other campus 
 
 ## Official Course Description
 
-**CMS 167 Problem Solving I**. Introduction to fundamental aspects of programming using a high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 167L
+**CMS 120 Introduction to Computer Science**. Introduction to fundamental aspects of programming using a high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 120L
 
 ## Learning Outcomes
 
@@ -45,7 +45,7 @@ programming problems.
 
 ## Textbook
 
-There is one required **free** online text, *Think Java* by Allen Downey. It’s available on the web at http://greenteapress.com/thinkjava/.
+There is one required **free** online text, *Think Python* by Allen Downey. It’s available on the web at http://greenteapress.com/thinkpython/.
 
 We will also use Mimir as an online development and automatic grading platform. It costs $25 for the semester. Please plan to sign up for Mimir by the start of the first lab. I'll send out the details of how to connect your Mimir account to the class by e-mail.
 
@@ -302,8 +302,8 @@ This	course	is	a	four-credit-hour	course	that	meets	three	hours	per	week.	The	va
 of four	credit	hours	results,	in	part,	from	work	expected	of	enrolled	students	both	
 inside	and	outside	the	classroom. Rollins	faculty	require	that	students	average	at	
 least	2	½	hours	of	outside	work	for	every	hour	of	scheduled	class	time. In	this	
-course,	the	additional	outside-of-class	expectations	are	self-directed learning and
-substantial team-based projects.
+course,	the	additional	outside-of-class	expectations	are	reading and substantial programming projects
+in our online programming environment.
 
 ### Recording	Device Use
 In	order	to	protect	the	integrity	of	the	classroom	experience,	the	use	of	recording	
