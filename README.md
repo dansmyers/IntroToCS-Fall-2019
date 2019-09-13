@@ -1,6 +1,6 @@
-# CMS 120 Introduction to Computer Science
+# CMS 167 Problem Solving I
 
-## Spring 2020 Syllabus
+## Fall 2019 Syllabus
 
 ## Who? Where?
 
@@ -10,7 +10,7 @@ dmyers@rollins.edu
 407-646-2146
 
 ## Office Hours
-Office hours for Spring 2020:
+Office hours for Fall 2019:
 
 - Monday 4:00 - 5:00
 - Tuesday 2:00 - 4:00
@@ -22,7 +22,7 @@ I sometimes need to modify my schedule to account for meetings and other campus 
 
 ## Official Course Description
 
-**CMS 120 Introduction to Computer Science**. Introduction to fundamental aspects of programming using a high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 120L
+**CMS 167 Problem Solving I**. Introduction to fundamental aspects of programming using a high-level language, focusing on problem solving, software design concepts, and their realization as computer programs. Topics include: variables, using existing classes, selection and iteration, and arrays. Classroom activities are used to gain mastery of these principles. Co-requisite: CMS 167L
 
 ## Learning Outcomes
 
@@ -45,7 +45,7 @@ programming problems.
 
 ## Textbook
 
-There is one required **free** online text, *Think Python* by Allen Downey. It’s available on the web at http://greenteapress.com/thinkpython/.
+There is one required **free** online text, *Think Java* by Allen Downey. It’s available on the web at http://greenteapress.com/thinkjava/.
 
 We will also use Mimir as an online development and automatic grading platform. It costs $25 for the semester. Please plan to sign up for Mimir by the start of the first lab. I'll send out the details of how to connect your Mimir account to the class by e-mail.
 
