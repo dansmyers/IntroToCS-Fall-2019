@@ -1,9 +1,9 @@
-// Examples of if statements
+// Test if a number is even or odd
 // CMS 167
 
 import java.util.Scanner;
 
-public class IfStatements {
+public class EvenOrOdd {
 
     public static void main(String[] args) {
     
