@@ -4,7 +4,7 @@
 
 Open your Mimir IDE.
 
-Once it comes up, check your present working directory and verify that it is `\home\YOURNAME`.
+Once it comes up, check your present working directory and verify that it is `/home/YOURNAME`.
 
 ```
 pwd
