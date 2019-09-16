@@ -23,7 +23,7 @@ public class InputValidation {
         // If not, print a message and exit immediately
         if (miles < 0) {
             System.out.println("Please enter a non-neagtive number of miles.");
-            System.exit();
+            return;
         }
         
         // Convert
