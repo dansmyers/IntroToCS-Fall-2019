@@ -19,6 +19,13 @@ public class InputValidation {
         System.out.println("Enter a number of miles:");
         double miles = input.nextDouble();
         
+        // Check if the input is reasonable
+        // If not, print a message and exit immediately
+        if (miles < 0) {
+            System.out.println("Please enter a non-neagtive number of miles.");
+            System.exit();
+        }
+        
         // Convert
         double km = miles * KM_PER_MILE;
         
