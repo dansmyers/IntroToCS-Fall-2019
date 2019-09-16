@@ -46,3 +46,11 @@ I think everything happens for a reason.
 ```
 
 Later today, we'll enhance this program to let it generate **more than one possible response**.
+
+Remember, to compile and run the program, use
+
+```
+javac Therapist.java
+
+java Therapist
+```
