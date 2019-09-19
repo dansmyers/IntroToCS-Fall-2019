@@ -46,9 +46,56 @@ Java also includes a built-in `Random` class that implements a more powerful PRN
 2. It allows you to set a **seed** for the random number stream. The seed is the starting value of the random number generator and any 
 two RNGs with the same seed will produce the same sequence of values. The ability to generate a **consistent and repeatable** stream of random numbers is useful for testing.
 
+## Passe-Dix
+
+Passe-dix (French for "pass ten") is an ancient dice game. According to some early gambling books, it was allegedly the game played by Roman soldiers to divide the clothes of Jesus at the Crucifixion.
+
+The rules are simple: roll three dice and add their sum. The player wins if the sum is **strictly greater** than 10, loses if the sum is **strictly less** than 10, and draws ("pushes" in gambling terms) if the sum equals 10.
+
+Write a program that implements passe-dix. Use the incomplete pseudocode below as your starting point. Fill in the parts that are missing and convert the `if` statements to correct Java code.
+
+The program uses the `nextInteger` method of `Random`. `nextInteger(N)` returns a random `int` value between 0 and **N - 1**.
+
+```
+// Passe-Dix
+
+import java.util.Random;
+
+public class PasseDix {
+
+  public static void main(String[] args) {
+  
+    // Create new Random object with a seed of zero
+    Random rng = new Random(0);
+    
+    // Roll a die
+    // nextInteger(6) returns a value in the range [0, 5]
+    // Add 1 to shift the range to [1, 6]
+    int die1 = rng.nextInteger(6) + 1;
+    
+    // Add two more lines to generate the other two dice
+    
+    // Calculate the sum of the three dice
+    
+    // Print the three dice and their sum
+    
+    // Test the result
+    if (sum is greater than 10) {
+      // Winner
+    } else if (sum is less than 10) {
+      // Loser
+    } else {
+      // Push
+    }
+    
+  }
+
+}
+```
+
 ## Coin and Die
 
-Let's use `Random` to implement a simple game:
+Let's use `Random` to implement another simple game:
 
 - Flip a coin and roll a die.
 
@@ -62,12 +109,6 @@ Use the code below as a starting point and add your own `if` statements to check
 
 - Use the mod operator to test for evenness. The die roll is even if `die % 2 == 0`.
 
-The condition you want to check will look like
-
-```
-
-```
-
 ```
 // Coin and die game
 
@@ -78,17 +119,13 @@ public class CoinAndDie {
   public static void main(String[] args) {
     
     // Create a new Random object with a seed value of 0
-    Random rng = new Random(0);
     
     // Flip a coin
     // nextBoolean() generates a random true / false value
     boolean isHeads = rng.nextBoolean();
     
-    // Roll a die
-    // nextInteger(6) returns a value in the range [0, 5]
-    // Add 1 to shift the range to [1, 6]
-    int die = rng.nextInteger(6) + 1;
-    
+    // Roll a die using nextInteger
+
     // Modify the pseudocode below to check the winning conditions
     if (isHeads AND die is even) {
       // Winning message
@@ -129,43 +166,3 @@ System.out.println(rng2);
 You should see that the two `Random` objects have different hashcodes, because they were created by two different calls to the constructor method using the `new` keyword to allocate memory each time.
 
 `rng` and `rng2` belong to the same *class* of object (`Random`), but they exist independently and are stored in different memory locations.
-
-## Passe-Dix
-
-Passe-dix (French for "pass ten") is an ancient dice game. According to some early gambling books, it was allegedly the game played by Roman soldiers to divide the clothes of Jesus at the Crucifixion.
-
-The rules are simple: roll three dice and add their sum. The player wins if the sum is **strictly greater** than 10, loses if the sum is **strictly less** than 10, and draws ("pushes" in gambling terms) if the sum equals 10.
-
-Write a program that implements passe-dix. Use the incomplete pseudocode below as your starting point. Fill in the parts that are missing and convert the `if` statements to correct Java code.
-
-```
-// Passe-Dix
-
-import java.util.Random;
-
-public class PasseDix {
-
-  public static void main(String[] args) {
-  
-    // Create new Random object with a seed of zero
-    
-    // Roll three dice
-    // Use three int variables and three separate class to rng.nextInteger
-    
-    // Calculate the sum of the three dice
-    
-    // Print the three dice and their sum
-    
-    // Test the result
-    if (sum is greater than 10) {
-      // Winner
-    } else if (sum is less than 10) {
-      // Loser
-    } else {
-      // Push
-    }
-    
-  }
-
-}
-```
