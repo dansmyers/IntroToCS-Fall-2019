@@ -54,7 +54,7 @@ The rules are simple: roll three dice and add their sum. The player wins if the 
 
 Write a program that implements passe-dix. Use the incomplete pseudocode below as your starting point. Fill in the parts that are missing and convert the `if` statements to correct Java code.
 
-The program uses the `nextInteger` method of `Random`. `nextInteger(N)` returns a random `int` value between 0 and **N - 1**.
+`Random` has a method called `nextInteger`. Calling `nextInteger(N)` returns a random `int` value between 0 and **N - 1**.
 
 ```
 // Passe-Dix
