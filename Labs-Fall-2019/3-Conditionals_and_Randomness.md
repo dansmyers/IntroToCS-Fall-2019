@@ -65,8 +65,8 @@ public class PasseDix {
 
   public static void main(String[] args) {
   
-    // Create new Random object with a seed of zero
-    Random rng = new Random(0);
+    // Create new Random object
+    Random rng = new Random();
     
     // Roll a die
     // nextInt(6) returns a value in the range [0, 5]
@@ -118,7 +118,7 @@ public class CoinAndDie {
 
   public static void main(String[] args) {
     
-    // Create a new Random object with a seed value of 0
+    // Create a new Random object
     
     // Flip a coin
     // nextBoolean() generates a random true / false value
