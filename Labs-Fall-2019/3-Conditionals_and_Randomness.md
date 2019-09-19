@@ -54,7 +54,7 @@ The rules are simple: roll three dice and add their sum. The player wins if the 
 
 Write a program that implements passe-dix. Use the incomplete pseudocode below as your starting point. Fill in the parts that are missing and convert the `if` statements to correct Java code.
 
-`Random` has a method called `nextInteger`. Calling `nextInteger(N)` returns a random `int` value between 0 and **N - 1**.
+`Random` has a method called `nextInt`. Calling `nextInt(N)` returns a random `int` value between 0 and **N - 1**.
 
 ```
 // Passe-Dix
@@ -69,9 +69,9 @@ public class PasseDix {
     Random rng = new Random(0);
     
     // Roll a die
-    // nextInteger(6) returns a value in the range [0, 5]
+    // nextInt(6) returns a value in the range [0, 5]
     // Add 1 to shift the range to [1, 6]
-    int die1 = rng.nextInteger(6) + 1;
+    int die1 = rng.nextInt(6) + 1;
     
     // Add two more lines to generate the other two dice
     
@@ -105,7 +105,7 @@ Use the code below as a starting point and add your own `if` statements to check
 
 - The `nextBoolean()` method returns a random `true` / `false` value.
 
-- `nextInteger(N)` returns a random `int` value between 0 and **N - 1**.
+- `nextInt(N)` returns a random `int` value between 0 and **N - 1**.
 
 - Use the mod operator to test for evenness. The die roll is even if `die % 2 == 0`.
 
@@ -124,7 +124,7 @@ public class CoinAndDie {
     // nextBoolean() generates a random true / false value
     boolean isHeads = rng.nextBoolean();
     
-    // Roll a die using nextInteger
+    // Roll a die using nextInt
 
     // Modify the pseudocode below to check the winning conditions
     if (isHeads AND die is even) {
