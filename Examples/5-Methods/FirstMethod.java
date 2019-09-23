@@ -10,7 +10,13 @@ public class FirstMethod {
     
     
     public static void main(String[] args) {     
-        printMessage();     
+        
+        System.out.println("This line prints before calling the method.");
+        
+        printMessage();
+        
+        System.out.println("This line prints after returning from the method.");
+        
     }
 
 }
