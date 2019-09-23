@@ -3,7 +3,7 @@
 
 // What is the output of this program?
 
-public class Multiple Methods {
+public class MultipleMethods {
 
     public static void methodOne() {
         System.out.println("Spam.");
