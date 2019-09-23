@@ -1,9 +1,9 @@
-// Use two methods to print two messages
+// One method can call another one
 // CMS 167
 
 // What is the output of this program?
 
-public class TwoMessages {
+public class MethodsCallingMethods {
 
     public static void messageOne() {
         System.out.println("Hello.");
