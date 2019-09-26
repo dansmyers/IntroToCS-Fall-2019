@@ -49,7 +49,8 @@ public class Echo100 {
      * Main method
      */
     public static void main(String[] args) {
-        // TODO: use the methods to read a line and echo it 100 times
+        String line = readLine();
+        echo100Times(line);
     }
 
 }
