@@ -147,7 +147,7 @@ public class SicBo {
 
 ## Chuck-a-Luck
 
-This is an old-time carnival game.
+An old-time carnival game.
 
 - The player bets on a number 1 to 6, then rolls three dice.
 - If the number comes up one time, the player wins $1.
