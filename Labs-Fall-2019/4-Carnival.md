@@ -158,7 +158,12 @@ This is an old-time carnival game.
 Fill in the skeleton below to implement chuck-a-luck. Use Javadoc-style headers for every method.
 
 ```
-
+/**
+ * Chuck-a-Luck
+ *
+ * @author  CMS 167
+ */
+ 
 import java.util.Scanner;
 
 public class ChuckALuck {
