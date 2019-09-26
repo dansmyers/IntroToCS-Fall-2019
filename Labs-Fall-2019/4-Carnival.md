@@ -138,7 +138,21 @@ public class SicBo {
      * Main method
      */
     public static void main(String[] args) {
-        // TODO: fill in code to use the other methods to implement sic bo
+        printInstructions();
+        
+        // Read the player's bet
+        int bet = readInt();
+        
+        // TODO: call sixSidedDie() three times to simulate three rolls
+        
+        // TODO: check if the three dice are a triple
+        // If so, print a losing message and return
+        
+        // TODO: if the sum is big and the player's bet is 1, print winner
+        
+        // Else if the sum is little and the player's bet is 2, print winner
+        
+        // Else, print losing message
     }
     
 }
