@@ -166,10 +166,11 @@ import java.util.Scanner;
 
 public class ChuckALuck {
 
-
     // TODO: add a method to generate and return a six-sided die roll
     
+    
     // TODO: add a method to read and return an int from the terminal
+
 
     // TODO: add a void method to print instructions
 
