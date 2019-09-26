@@ -1,4 +1,4 @@
-# Methods
+# Carnival of Methods
 
 ## Whatever You Say
 
