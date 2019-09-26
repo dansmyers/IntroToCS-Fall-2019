@@ -181,7 +181,9 @@ public class ChuckALuck {
      * Main
      */
     public static void main(String[] args) {
+    
         // Print the welcome message and instructions
+        printInstructions();
         
         // Read the player's bet
         int number = readInt();
