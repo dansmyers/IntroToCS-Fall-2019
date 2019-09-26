@@ -1,8 +1,5 @@
 # Methods
 
-## Tips
-
-
 ## Whatever You Say
 
 Complete the class below to write a program that prompts the user for input, then repeats whatever they typed 100 times.
