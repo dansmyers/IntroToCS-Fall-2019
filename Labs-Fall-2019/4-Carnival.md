@@ -210,3 +210,23 @@ public class ChuckALuck {
 }
 
 ```
+
+## Slot Machine
+
+This game doesn’t require any user input.
+
+- Generate three random numbers between 1 and 9, including both
+- If all three numbers are the same, print `Jackpot!`
+- If two of the three numbers are the same, print `Winner!`
+- If neither condition is satisfied, print `Better luck next time!`
+
+There's no skeleton for this program: choose and implement your own methods. Give each method a Javadoc-style header and include a header for the entire class, like in the previous problems.
+
+(You could do the entire program in `main`, but I want you to break some of the work up into methods as a design exercise.)
+
+```
+Welcome to the Slot Machine!
+Spinning three numbers...
+5 1 5
+Winner!
+```
