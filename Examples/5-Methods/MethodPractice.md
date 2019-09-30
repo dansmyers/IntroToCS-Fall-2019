@@ -24,3 +24,62 @@ public class Hello100 {
 
 }
 ```
+
+## Tricky
+
+This program uses the variable name `x` in multiple places. What happens when it executes?
+
+```
+public class Tricky {
+
+    public static int baz(int x) {
+        x = x * 2;
+        return x;    
+    }
+
+    public static int foo(int value) {
+        int x = baz(value + 1);
+        return x;
+    }
+
+    public static void main(String[] args) {
+        int x = 1;
+        x = foo(x);
+        System.out.println(x);
+    }
+}
+```
+
+## Tricky II
+
+Step through the execution of this program using a stack diagram. For your example, assume the user inputs ` `
+
+```
+import java.util.Scanner;
+
+public class TrickyII {
+
+    public static String readLine() {
+        Scanner reader = new Scanner(System.in);
+        String message = reader.nextLine();
+        return message;
+    }
+
+    public static void printTwice(String message) {
+        System.out.println(message);
+        System.out.println(message);
+    }
+
+    public static void printFourTimes(String message) {
+        printTwice(message);
+        printTwice(message);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("What's your favorite band?"
+        String message = readLine();
+        printFourTimes(message);
+    }
+
+}
+```
