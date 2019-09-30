@@ -65,20 +65,16 @@ public class TrickyII {
         return message;
     }
 
-    public static void printTwice(String message) {
+    public static void printThreeTimes(String message) {
         System.out.println(message);
         System.out.println(message);
-    }
-
-    public static void printFourTimes(String message) {
-        printTwice(message);
-        printTwice(message);
+        System.out.println(message);
     }
 
     public static void main(String[] args) {
         System.out.println("What's your favorite band?");
         String message = readLine();
-        printFourTimes(message);
+        printThreeTimes(message);
     }
 
 }
