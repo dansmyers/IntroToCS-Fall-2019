@@ -76,7 +76,7 @@ public class TrickyII {
     }
 
     public static void main(String[] args) {
-        System.out.println("What's your favorite band?"
+        System.out.println("What's your favorite band?");
         String message = readLine();
         printFourTimes(message);
     }
