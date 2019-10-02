@@ -16,6 +16,8 @@ public class DivisibleBy7 {
             if (n % 7 == 0) {
                 System.out.println(n);
             }
+         
+            n++;
         }
     }
     
