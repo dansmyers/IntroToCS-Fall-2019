@@ -266,9 +266,7 @@ Use three loops:
 - An inner one that prints the spaces on each line
 - A second inner one that prints the stars on each line
 
-The first level has `height - 1` spaces and 1 star. The second has `height - 2` spaces and 3 stars.
-
-Put your code in a method named `buildPyramid`.
+Tip: the first level has `height - 1` spaces and 1 star. The second has `height - 2` spaces and 3 stars.
 
 ```
 /**
