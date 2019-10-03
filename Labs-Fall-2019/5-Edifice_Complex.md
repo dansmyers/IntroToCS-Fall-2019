@@ -300,9 +300,11 @@ public class Pyramids {
             
             // Update the number of spaces and stars for the next line
             
+
+            n++;
+            System.out.println();  // Advance to the next line
         }
         
-        System.out.println();  // Advance to the next line
     }
     
     
