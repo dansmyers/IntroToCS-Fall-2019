@@ -319,7 +319,7 @@ public class Pyramids {
 
 ```
 
-## Super Pyramid
+## Hoard
 
 Of course, my pyramid must be hollow to hold all of the treasure that will be buried to accompany me to the Afterlife.
 
