@@ -328,8 +328,8 @@ Write a program with a `printHollowPyramid` method that prints pyramids like the
 ```
     *
    * *
-  * . *
- * .   *
+  *   *
+ *     *
 *********
 ```
 
