@@ -123,10 +123,12 @@ public class Stairs {
         
             // Use a second inner loop to print a total of n blocks
             // Tip: you need to initialize a second loop index variable
-  
+            
+            
+            n++;
+            System.out.println();  // Advance to the next line
         }
         
-        System.out.println();  // Advance to the next line
     }
     
     
