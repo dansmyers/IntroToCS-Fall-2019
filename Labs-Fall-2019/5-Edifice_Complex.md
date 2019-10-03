@@ -248,7 +248,7 @@ while (gettingInput) {
 
 ## Look On My Works, Ye Mighty, and Despair!
 
-![https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg]
+!(https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg)
 
 https://www.poetryfoundation.org/poems/46565/ozymandias
 
