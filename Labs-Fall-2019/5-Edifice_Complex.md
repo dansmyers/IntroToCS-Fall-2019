@@ -318,3 +318,31 @@ public class Pyramids {
 }
 
 ```
+
+## Super Pyramid
+
+Of course, my pyramid must be hollow to hold all of the treasure that will be buried to accompany me to the Afterlife.
+
+Write a program with a `printHollowPyramid` method that prints pyramids like the following:
+
+```
+    *
+   * *
+  * . *
+ * .   *
+*********
+```
+
+## Super Pyramids
+
+Now make your pyramids look like this:
+
+```
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+```
+
+Hint: think about printing a number of `"* "` strings (star followed by a space).
