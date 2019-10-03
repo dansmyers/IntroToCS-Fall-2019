@@ -272,7 +272,7 @@ Tip: the first level has `height - 1` spaces and 1 star. The second has `height 
 /**
  * Construct pyramids
  *
- * @author Pharaoah Ramses II
+ * @author Pharaoh Ramses II
  */
  
 public class Pyramids {
