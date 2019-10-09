@@ -66,8 +66,8 @@ a letter.
 
 ## Annotated Bibliography
 
-Rather than giving detailed citations in the text, you can include references for all of your factual information in a one-page annotated
-bibliography. For each entry, list
+Rather than giving detailed citations in the text, you can write in the style of an op-ed or briefing paper and include references for 
+all of your factual information in a one-page annotated bibliography. For each entry, list
 
 - The title of the work
 - The author(s), if applicable
