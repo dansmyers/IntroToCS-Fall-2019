@@ -1,5 +1,7 @@
 # Challenge Project: Research White Paper
 
+## Due on or before December 1
+
 ## Description
 
 Write a short paper investigating an emerging computer science technology and its implications for broader society. 
@@ -35,17 +37,22 @@ You can pick a topic that you're interested in, but here are some ideas to get y
 - Mental health impacts of social media
 - Automation and its implications for employment and the concept of a universal basic income
 - Deep fakes
-- Developing high-quality bots to play online games
 
 **Be specific**!
 
 - "The impact of AI on business" is too broad and, frankly, boring. What kind of AI? What sorts of businesses?
-- "The impact of AI chess programs on high-level competitive chess" sounds way more interesting. How has the chess changed now that
-computers are better than any human player and humans can use AI programs for training and planning? The specificity of the questions 
-makes it interesting.
 
-**Pick a specific question you honestly think is interesting and write about that**. If you don't have one in mind right away, do some
-general background reading and thinking to start generating ideas.
+- "The impact of AI chess programs on high-level competitive chess" is much more interesting. How has the chess changed now that
+computers are better than any human player and humans can use AI programs for training and planning? The specificity of the question 
+makes it meaningful.
+
+**Pick a specific, focused question that you honestly think is interesting and write about that**. If you don't have one in mind right 
+away, do some general background reading and thinking to start coming up with ideas. **Give your ideas time to develop**!
+
+Your topic doesn't have to be about a big social issue or problem. "Small" issues that you care about, like the chess example above, are guaranteed to be more interesting.
+
+You can also start with a big area, like "business", and then narrow it down. How about small businesses? Or family-owned farms? Real estate? By getting more specific, you create opportunities for targeted research, which then helps you refine your ideas even further.
+
 
 ## Grade Contribution
 
@@ -74,11 +81,12 @@ For articles published in academic journals, list the name of the journal.
 Write a three-page paper using normal one-inch margins, 12 pt. font (Times New Roman or similar), and 1.5 line spacing. I don't care about
 the particular details of the format you use as long as you don't do anything goofy.
 
-The annotated bibliography should be one page in 
+The annotated bibliography should be **one page with at least four sources**. Four good, informative sources from high-quality venues
+is more than enough.
 
 ## Submission
 
-Upload your paper and annotated bibliography to the assignment that I'll create on the course Canvas page. You have until December 1
+Upload your paper and annotated bibliography to the assignment that I'll create on the course Canvas page. You have until **December 1**
 to finalize your submission.
 
 ## Grading
@@ -91,6 +99,5 @@ I'll mark your paper in the following categories:
 - Grammar, formatting, etc.
 - One-page annotated bibliography listing background citations and a 1-3 sentence summary of each one.
 
-## Tips
-
-- Pick an interesting topic that you care about!
+Each area will be marked **satisfactory or unsatisfctory**. If your first submission is not satisfactory in any area, you'll have **one
+opportunity to revise it**, with the requirement that the final version must still be submitted on or before December 1.
