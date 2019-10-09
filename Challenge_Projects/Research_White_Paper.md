@@ -42,7 +42,7 @@ You can pick a topic that you're interested in, but here are some ideas to get y
 
 - "The impact of AI on business" is too broad and, frankly, boring. What kind of AI? What sorts of businesses?
 
-- "The impact of AI chess programs on high-level competitive chess" is much more interesting. How has the chess changed now that
+- "The impact of AI chess programs on high-level competitive chess" is much more interesting. How has chess changed now that
 computers are better than any human player and humans can use AI programs for training and planning? The specificity of the question 
 makes it meaningful.
 
