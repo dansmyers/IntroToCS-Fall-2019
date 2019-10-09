@@ -23,7 +23,7 @@ write-up should probably cover
 
 ## Topic Ideas
 
-You can pick a topic that you're interested in, but here are some ideas to get you started:
+You can pick any topic that you're interested in, but here are some ideas to get you started:
 
 - Bitcoin, cryptocurrencies, and blockchain technology (many possible applications to investigate, but make sure you do research to go beyond the hype)
 - Self-driving cars (again, many possible topics, but go beyond surface-level hype)
