@@ -51,7 +51,8 @@ away, do some general background reading and thinking to start coming up with id
 
 Your topic doesn't have to be about a big social issue or problem. "Small" issues that you care about, like the chess example above, are guaranteed to be more interesting.
 
-You can also start with a big area, like "business", and then narrow it down. How about small businesses? Or family-owned farms? Real estate? By getting more specific, you create opportunities for targeted research, which then helps you refine your ideas even further.
+You can also start with a big area, like "business", and then narrow it down. How about small businesses? Or family-owned farms? Real 
+estate? By getting more specific, you create opportunities for targeted research, which then helps you refine your ideas even further.
 
 
 ## Grade Contribution
@@ -59,9 +60,9 @@ You can also start with a big area, like "business", and then narrow it down. Ho
 Successfully completing this project will raise your final grade by **one half of a letter**. For example, if your grade before completing
 the project was a B, you'll have a B+ after receiving credit for the project.
 
-This extra credit stacks with the other challenge projects you complete. There will be at least two challenge programming projects and an
-opportunity to complete an in-depth reflective writing exercise: each of those projects will also increase your grade by one-half of a
-letter.
+This extra credit stacks with the other challenge projects you complete. There will be at least two challenge programming projects and 
+an opportunity to complete an in-depth reflective writing exercise: each of those projects will also increase your grade by one-half of 
+a letter.
 
 ## Annotated Bibliography
 
