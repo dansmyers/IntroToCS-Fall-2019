@@ -20,7 +20,7 @@ Print the numbers 1 through 30, except
 
 - For numbers divisible by 3, print `Fizz`
 - For numbers divisbile by 5, print `Buzz`
-- For numbers divisbile by 3 and 5, print `FizzBuzz`
+- For numbers divisible by 3 and 5, print `FizzBuzz`
 
 Here is some example output:
 
