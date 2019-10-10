@@ -103,7 +103,7 @@ public class AverageOfTwoDice {
 
        
         // Calculate and print the average die roll
-        // The answer should be about 7.5
+        // The answer should be about 7.0
     }
 
 }
