@@ -226,3 +226,29 @@ public class MarioStairs {
 
 }
 ```
+
+## Craps
+
+The most popular dice game in American casinos, craps allows players to make an extensive array of bets. The most common
+is called the "pass" bet, and it works as follows:
+
+- A player (the "shooter") rolls two six-sided dice.
+
+- If their sum is 7 or 11, the bet immediately wins. If the sum is 2 ("snake eyes"), 3, or 12 ("boxcars" or "midnight"), the bet immediately loses.
+
+- If the sum is any other number, that number becomes the *point*.
+
+- The shooter continues rolling the dice with the goal of rolling the point value again before rolling a 7. If the point comes up first, the bet wins; if a 7 comes up first, the bet loses. The shooter will re-roll as many times as required until either a point or 7 comes up.
+
+Write a simulation program to estimate the probability of winning the pass bet in craps.
+
+Tips:
+
+- Use a `simulate` method and `main` method, like in the previous problem. The `simulate` method should complete one round of craps and return `true` or `false` to indicate whether the pass bet won or lost on that round.
+
+- Within the `simulate` method, roll two dice and check their sum. If the result is 7, 11, 2, 3, or 12, you can return the result immediately. If the result is anything else, use a `while` loop to implement the second phase of the bet.
+
+- Run 1000 trials.
+
+Hint: your answer should be about 49%.
+
