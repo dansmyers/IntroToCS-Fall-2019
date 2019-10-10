@@ -13,7 +13,7 @@ cd Lab_6
 If you apply for a software engineering job, it's common to have to pass a **TECHNICAL INTERVIEW**, which can include solving programming
 problems on a computer or on a whiteboard.
 
-This is one of the class programming interview problems that was originally proposed as a check to see if candidates who claimed to be
+This is one of the classic programming interview problems that was originally proposed as a check to see if candidates who claimed to be
 experienced could actually code.
 
 Print the numbers 1 through 30, except
