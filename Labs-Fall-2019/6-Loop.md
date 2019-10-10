@@ -170,3 +170,59 @@ public class AverageOfTwoDice {
 
 }
 ```
+
+## If They're the Super Mario Brothers, Does That Mean His Name is Mario Mario?
+
+At the end of each level in the original *Super Mario Bros.*, Mario jumps up a stair like the following:
+
+```
+     ##
+    ###
+   ####
+  #####
+ ######
+#######
+```
+
+Write a set of loops that print Mario-style stairs of arbitrary height. Put your code in a `void` method named `printMarioStairs`.
+
+Tip: the first line has `height - 2` spaces and 2 blocks. The second line has `height - 3` spaces and 3 blocks.
+
+```
+/**
+ * Build Mario-style stairs
+ *
+ * @author CMS 167
+ */
+ 
+public class MarioStairs {
+
+    /**
+     * Print a staircase
+     *
+     * @param  height  the number of levels in the staircase
+     */
+    public static void printMarioStairs(int height) {
+        int numSpaces = height - 2;
+        int numBlocks = 2;
+
+        for (int level = 0; level < height; level++) {
+
+            // Use a loop to print the spaces on the current line
+    
+            // Use a loop to print the blocks on the current line
+    
+            // Update the number of spaces and blocks for the next line
+        }
+    }
+    
+    
+    /**
+     * Main
+     */
+    public static void main(String[] args) {
+        printMarioStairs(20);
+    }
+
+}
+```
