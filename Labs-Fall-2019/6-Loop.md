@@ -42,7 +42,7 @@ Fizz
 FizzBuzz
 ```
 
-Use a `for` loop with an `if-else if-else` block inside it.
+Use a `for` loop with an `if-else if-else if-else` block inside it.
 
 ## Multiplication Table
 
