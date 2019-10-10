@@ -186,7 +186,7 @@ At the end of each level in the original *Super Mario Bros.*, Mario jumps up a s
 
 Write a set of loops that print Mario-style stairs of arbitrary height. Put your code in a `void` method named `printMarioStairs`.
 
-Tip: the first line has `height - 2` spaces and 2 blocks. The second line has `height - 3` spaces and 3 blocks.
+Tip: the first line has `height - 1` spaces and 2 blocks. The second line has `height - 2` spaces and 3 blocks.
 
 ```
 /**
@@ -203,7 +203,7 @@ public class MarioStairs {
      * @param  height  the number of levels in the staircase
      */
     public static void printMarioStairs(int height) {
-        int numSpaces = height - 2;
+        int numSpaces = height - 1;
         int numBlocks = 2;
 
         for (int level = 0; level < height; level++) {
