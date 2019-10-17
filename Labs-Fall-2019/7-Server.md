@@ -3,7 +3,7 @@
 ## Overview
 
 This lab will be a little different from previous ones. You won't be doing any programming today. Instead, we're going to work through
-a few system tools and show off some features of Linux.
+a few system tools and show off some features of Linux. Everything we do today will be in the Mimir IDE and terminal; you won't need to write any Java programs.
 
 You'll work on
 
