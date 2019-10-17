@@ -23,7 +23,7 @@ cd Lab_7
 
 ### Cowsay?
 
-Let's install a new program.
+Let's install a new program. **Type this command in the terminal window of your Mimir IDE**.
 ```
 sudo apt-get install cowsay
 ```
@@ -38,17 +38,11 @@ system changes, so it's prefixed by `sudo`.
 ![xkcd #149](https://imgs.xkcd.com/comics/sandwich.png)
 
 Run the program:
+
 ```
 cowsay "Hello, Friend!"
-  _______________
-< Hello, Friend! >
-  ---------------
-       \   ^__^ 
-        \  (oo)\_______
-           (__)\       )\/\
-               ||----w |
-               ||     ||
-```               
+```
+
 Make the cow say a few different things.
 
 ### The Man Pages (Not a Dating Site)
