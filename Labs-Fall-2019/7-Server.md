@@ -324,7 +324,7 @@ Here's what happens when you log in to a system:
 - If the hashes match then, with very high probability, the password you typed is the correct one and the system allows you to log in.
 - If the hashes don't match, then you must have typed the wrong password.
 
-## What Do Hackers Do With Stolen Passwords?
+### What Do Hackers Do With Stolen Passwords?
 
 You'll often hear that a company has been hacked and some users have had their passwords compromised. This doesn't mean that the users' real passwords have been stolen. Rather, it means that the database of **password hashes** has been taken by a hacker.
 
