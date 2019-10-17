@@ -405,6 +405,8 @@ john --wordlist=/usr/share/dict/american-english-large shadow_test
 
 It will take a moment, but `john` will work its way through the list to find `raspberry` and crack the password. Press the spacebar for updates as it cracks.
 
+### The Mangler
+
 How about one more?
 
 ```
@@ -421,11 +423,11 @@ Appending a single digit to a word is a really common password-generating strate
 john --wordlist=/usr/share/dict/american-english-large --rules shadow_test
 ```
 
-This approach is extremely effective. People are not very creative, on average, so a good list of words and a set of common mangling patterns is enough to crack a large fraction of the hashes in a typical password database.
+This approach is extremely effective. People are not very creative, on average, so a good list of words and a set of common mangling patterns (appending a number, capitalizing the first letter, etc.) is enough to crack a large fraction of the hashes in a typical password database.
 
 ### Rules for Survival
 
-How to create good passwords? Basically, a combination of length and unusualness.
+How to create good passwords that will stand up to cracking? Basically, a combination of length and unusualness.
 
 - Long, truly random passwords are always strong, because they can only be cracked by brute force. On the other hand, they're almost impossible to remember without a password manager.
     
