@@ -100,7 +100,7 @@ Pipes are a common tool in the Unix world: they allow you to chain small, simple
 
 ## Let's Make a Web Server
 
-## Write a Serve a Basic Web Page
+### Write a Serve a Basic Web Page
 
 **Creating the Page**  Let's make a basic web page. It needs to be named `index.html`.
 
@@ -164,7 +164,10 @@ https://silly-baldr_80.ide.mimir.io/
 
 where `silly-baldr` will be replaced with a different name matching your current Mimir workspace.
 
-### Breaking Down the Web Page Contents
+**Stopping the Server** Press CTRL + c in the terminal window to stop the server program.
+
+
+### Page Contents
 
 Web pages are written in **HTML**, the *Hypertext Markup Language*. An HTML file is a mixture of regular text and special **tags** that tell your web browser how to format the page.
 
@@ -185,7 +188,7 @@ Your example page uses two other tags
 
 ### Jam
 
-Experiment with making some changes to your page and visualizing the results.
+Before going further, experiment with making some changes to your page and visualizing the results.
 
 ### Interior Decoration
 
@@ -257,14 +260,14 @@ You can add elements to the style block to control the presentation of other par
 </head>
 ```
 
-**Fonts** The `font-family` parameter takes a list of fonts and uses the first one that's available on the system, with the last choice being the default system sans-serif font. `font-size` controls the size.
+**Fonts** The `font-family` parameter takes a list of fonts (a "font stack") and uses the first one that's available on the system. Here, the first choice font is Helvetica and the last choice is the default system sans-serif font, which is guaranteed to exist.`font-size` controls the size.
 
 **Colors** Colors are specified as three values, denoting the red, green, and blue components of the color. Each value is represented using the **hexadecimal** number system, which encodes a byte of data as a number from `00` to `FF`.
 
 The string `#FAFAFA` sets R, G, and B to a nice equal gray color. For something more vibrant try
 
-- `#0071BA` (the official brand-approved Rollins blue color)
-- `#FACF00` (the official brand-approved Rollins gold color)
+- `#0071BA` (the official brand-approved Rollins blue color). This color has no red (`00`), some green (`71`) and a good amount of blue (`BA`).
+- `#FACF00` (the official brand-approved Rollins gold color). This color has a lot of red (`FF`), some green (`CF`) and no blue (`00`).
 
 Play around with a color picker and experiment with different color strings:
 
