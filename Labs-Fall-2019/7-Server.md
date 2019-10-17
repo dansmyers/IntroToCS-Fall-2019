@@ -20,15 +20,13 @@ Let's install a new program.
 prompt$ sudo apt-get install cowsay
 ```
 
-Linux systems have the notion of privilege levels and access control. The top level account on any system is the **superuser** or **root** account, which has the ability to make any change to anything. Regular users always run with privileges below that of root.
+**`sudo`** Linux systems have the notion of privilege levels and access control. The top level account on any system is the **superuser** or **root** account, which has the ability to make any change to anything. Regular users always run with privileges below that of root.
 
 `sudo` is `substitute user do`&mdash;it's a way to run individual commands with superuser-level privileges without actually logging in as the root account.
 
 ![xkcd #149](https://imgs.xkcd.com/comics/sandwich.png)
 
-- `apt-get` is a standard command for managing packages and installing programs on many Linux distros.
-
-It has to be run as root to make
+`apt-get` is a standard command for managing packages and installing programs on many Linux distros. It has to be run as root to make
 system changes, so it's prefixed by `sudo`.
 
 Run the program:
