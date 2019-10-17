@@ -324,14 +324,23 @@ Here's what happens when you log in to a system:
 - If the hashes match then, with very high probability, the password you typed is the correct one and the system allows you to log in.
 - If the hashes don't match, then you must have typed the wrong password.
 
-**What Does It Mean When Passwords Are Stolen?** You'll often hear that a company has been hacked and some users have had their passwords compromised. This doesn't mean that the users' real passwords have been stolen. Rather, it means that the **password hashes** 
-have been taken by a hacker.
+## What Do Hackers Do With Stolen Passwords?
 
-The hacker now has the challenge of **reverse-engineering** the correct passwords that match the stolen hashes. This is usually hard, because strong cryptographic hash functions are **not invertible**.
+You'll often hear that a company has been hacked and some users have had their passwords compromised. This doesn't mean that the users' real passwords have been stolen. Rather, it means that the database of **password hashes** has been taken by a hacker.
 
-- One strategy is to **brute-force** the passwords: just try every combination of possible passwords until finding one that matches a particular hash. This is guaranteed to eventually work, but it's time consuming.
+The hacker now has the challenge of **reverse-engineering** the correct passwords that match the stolen hashes.
 
-- A better strategy (from the hacker's perspective) is to take advantage of **weak passwords**. This is what *John the Ripper* is designed to do. It turns out that a very high fraction of real passwords can be cracked without resorting to an extensive brute-force search.
+```
+hash(?) = stolen password hash
+```
+
+This is usually hard, because strong cryptographic hash functions are **not invertible**. Therefore, the attacker's only option is to try lots of passwords until finding one that matches a hash from the database.
+
+- One strategy is to **brute-force** the passwords: just try every combination of possible passwords until finding one that generates a match. This is guaranteed to eventually work, but it's time consuming.
+
+- A better strategy (from the hacker's perspective) is to take advantage of **weak passwords**. This is what *John the Ripper* is designed to do.
+
+It turns out that a very high fraction of real passwords can be cracked without resorting to an extensive brute-force search.
 
 
 ### Get Ripped
@@ -381,6 +390,7 @@ Now get cracking:
 ```
 john shadow_test
 ```
+
 `john` quickly tries a few basic cracking rules, one of which is blasting through a list of common passwords. Since `password` is on that list, it quickly identifies that the string `password` matches up with the data in the `shadow_test` file.
 
 Let's try something a littler harder:
