@@ -33,6 +33,9 @@ public class CreatingArrays {
         // You can use an array access any place you would use a variable name
         System.out.println(primes[0]);
         System.out.println(primes[1]);
+     
+        // If you know the elements of the array, you can declare them with { }
+        int[] scores = {99, 92, 100, 85};
     
     }
     
