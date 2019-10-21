@@ -6,7 +6,12 @@
  
 public static void main(String[] args) {
 
-
+    /**
+     * Fill an array with values 0 to n - 1
+     *
+     * @param  n  the length of the array
+     * @return    an array filled with 0 to n - 1
+     */
     public static int[] fill(int n) {
         int[] a = new int[n];
         
@@ -16,8 +21,14 @@ public static void main(String[] args) {
         
         return a;
     }
+ 
     
-    
+    /**
+     * Fill an array with powers of 2
+     *
+     * @param  n  the number of powers to generate
+     * @return    the array of 2^0 to 2^(n - 1)
+     */    
     public static int[] powersOf2(int n) {
         int[] powers = new int[n];
         
@@ -29,7 +40,20 @@ public static void main(String[] args) {
     }
     
     
+    /**
+     * Fill an array with Fibonacci numbers
+     *
+     * @param  n  the number of Fibonacci numbers to generate
+     * @return    the array of the first n Fibonacci numbers
+     */    
     public static int[] fib(int n) {
+     
+        // Special case for n = 1
+        if (n == 1) {
+            int [] a = {0};
+            return a;
+        }
+     
         int[] a = new int[n];
         
         a[0] = 0;
