@@ -177,3 +177,37 @@ public class Bananas {
 
 }
 ```
+
+## Comparing Two Arrays
+
+Write a program with a method called `compare` that takes two `int[]` named `a` and `b` as input. The method returns `true` if `a` and `b` are the same lengths and have the same values at every position. If `a` and `b` are different lengths or differ at any position, return `false`.
+
+Write your own `main` to test your routine. How many cases do you need to make sure every possible outcome has been tested?
+
+```
+/**
+ * Comparing arrays
+ */
+ 
+public class Bananas {
+
+    /**
+     * Compare two arrays
+     *
+     * @param  a  an input int[]
+     * @param  b  an input int[]
+     * @return    true if a and b are same length and have same value, false otherwise
+     */
+    public boolean compare(int[] a, int[] b) {
+    
+    }
+    
+    /**
+     * Main
+     */
+    public static void main(String[] args) {
+
+    }
+
+}
+```
