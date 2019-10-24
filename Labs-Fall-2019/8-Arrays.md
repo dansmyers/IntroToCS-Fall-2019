@@ -144,3 +144,34 @@ if (a[i].equals("banana")) {
 }
 ```
 Tip: loop over the array, like in the other problems, and use an `if` statement to test if `a[i] == 0`.
+
+Test your program using the command line input.
+
+```
+/**
+ * Yes, we have no bananas
+ */
+ 
+public class Bananas {
+
+    /**
+     * Test if a String[] contains the word "banana"
+     *
+     * @param  a  the input array of String
+     * @return    true if a contains "banana", false otherwise
+     */
+    public boolean hasBanana(String[] a) {
+    
+    }
+    
+    /**
+     * Main
+     */
+    public static void main(String[] args) {
+        if (hasBanana(args)) {
+            System.out.println("banana typed at command line.");
+        }
+    }
+
+}
+```
