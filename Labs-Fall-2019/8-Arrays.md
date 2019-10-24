@@ -130,6 +130,8 @@ public static int[] arraySum(int[] a, int[] b) {
 
 Write a program with a method called `countZeros` that takes an `int[]` as input and counts up and returns the number of zeros in the array.
 
+Write you own `main` to test the method.
+
 
 ## Banana? Banana!
 
