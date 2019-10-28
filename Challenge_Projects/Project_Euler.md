@@ -91,3 +91,5 @@ are generated.
 
 - Use a loop to call `collatz` for all values of `n` from 1 to 1 million and keep track of the value of `n` that generates the longest
 sequence.
+
+![https://imgs.xkcd.com/comics/collatz_conjecture.png]()
