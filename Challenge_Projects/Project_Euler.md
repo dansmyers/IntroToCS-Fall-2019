@@ -18,7 +18,7 @@ You can get credit any time before the end of the day on December 6 (the last da
 
 ## Example Problems
 
-These are three of my favorite problems. You can use these, or pick different ones from the list.
+These are three of my favorite problems from the list, along with a few tips for solving them. You can complete these or pick different ones that interest you.
 
 
 ### Smallest Multiple (Problem 5)
