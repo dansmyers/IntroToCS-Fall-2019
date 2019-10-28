@@ -82,6 +82,8 @@ Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million.
 
+![](https://imgs.xkcd.com/comics/collatz_conjecture.png)
+
 Tips:
 
 - Use a method called `collatz(int n)` that returns the **number of terms** in the sequence starting with `n`.
@@ -91,5 +93,3 @@ are generated.
 
 - Use a loop to call `collatz` for all values of `n` from 1 to 1 million and keep track of the value of `n` that generates the longest
 sequence.
-
-![](https://imgs.xkcd.com/comics/collatz_conjecture.png)
