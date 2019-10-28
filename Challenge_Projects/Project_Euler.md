@@ -1,4 +1,4 @@
-# Challenge Project #1: Project Euler
+# Challenge Project: Project Euler
 
 ## Overview
 
