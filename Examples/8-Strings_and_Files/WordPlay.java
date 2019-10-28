@@ -21,7 +21,7 @@ public class WordPlay {
     public static void main(String[] args) {
         
         try {
-            Scanner reader = new Scanner(new File("./DOESNOTEXIST.txt"));
+            Scanner reader = new Scanner(new File("./words.txt"));
         
             while (reader.hasNext()) {
                 String line = reader.nextLine();
