@@ -123,3 +123,9 @@ Tip: use a loop and compare `word.charAt(i)` to `word.charAt(i + 1)`. Think abou
 Find all the palindromes in the word list.
 
 Tip: Use a loop that compares pairs of letters, starting at the outermost letters (indexes 0 and length - 1) and working inwards. If you find a pair that doesn't match, return `false` immediately. If you succeed in checking all pairs, return `true`.
+
+### Triple Double Letters
+
+The word `balloon` has two consecutive pairs of double letters.
+
+I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
