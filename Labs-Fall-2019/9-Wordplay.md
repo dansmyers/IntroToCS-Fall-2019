@@ -100,6 +100,10 @@ I'm thinking of a word that starts with `he` and ends with `he`. What could it b
 
 ### No Vowels
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Crwth_rem.jpg/800px-Crwth_rem.jpg)
+
+*The Welsh Crwth*
+
 Find all of the words that contain no vowels and no `y`.
 
 Tip: loop over the characters in the word and test each one to see if it's a vowel. If you find a vowel or a `y`, the test method can immediately `return false`. If you make it all the way through the loop and never find a vowel or `y`, `return true`.
