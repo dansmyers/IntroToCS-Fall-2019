@@ -104,6 +104,10 @@ I'm thinking of a word that starts with `he` and ends with `he`. What could it b
 
 *The Welsh Crwth*
 
+<img src=https://upload.wikimedia.org/wikipedia/commons/9/9f/Western_Cwm_and_Lhotse.jpg width="30%" />
+
+*The Western Cwm (a glaciated valley) on Mt. Everest with the Lhotse Face in the background*
+
 Find all of the words that contain no vowels and no `y`.
 
 Tip: loop over the characters in the word and test each one to see if it's a vowel. If you find a vowel or a `y`, the test method can immediately `return false`. If you make it all the way through the loop and never find a vowel or `y`, `return true`.
@@ -119,6 +123,8 @@ Tips:
 You can compare two `char` values using the regular relational operators: `<`, `>`, and so forth. You might remember from our discussion of ASCII and Unicode that a `char` is mapped to a number behind the scenes.
 
 Use a loop and test if `word.charAt(i) > word.charAt(i + 1)`. If so, return `false`, because the letters are not abecedarian. Think about the ending condition of the loop.
+
+### 
 
 ### TACOCAT is TACOCAT Backwards
 
