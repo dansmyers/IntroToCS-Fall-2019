@@ -47,6 +47,7 @@ public class StartsWithQ {
         System.out.println(word);
       }
     }
+    
   }
   
 }
