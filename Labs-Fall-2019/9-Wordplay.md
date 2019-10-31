@@ -114,7 +114,11 @@ Let's say that a word is *abecedarian* if its letters are in alphabetical order,
 
 Print all the abecedarian words in the list.
 
-Tip: use a loop and compare `word.charAt(i)` to `word.charAt(i + 1)`. Think about the ending condition of the loop.
+Tips: 
+
+You can compare two `char` values using the regular relational operators: `<`, `>`, and so forth. You might remember from our discussion of ASCII and Unicode that a `char` is mapped to a number behind the scenes.
+
+Use a loop and test if `word.charAt(i) > word.charAt(i + 1)`. If so, return `false`, because the letters are not abecedarian. Think about the ending condition of the loop.
 
 ### TACOCAT is TACOCAT Backwards
 
