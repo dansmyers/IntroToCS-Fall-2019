@@ -4,7 +4,11 @@
 
 This lab will let you practice `String` and file operations using the `words.txt` list we introduced in the last class.
 
-Use the `CMS 167 Spring 2019 Words` workspace.
+Use your `CMS_167/Files` directory that should already contain `words.txt`:
+
+```
+cd CMS_167/Files
+```
 
 The code for the `StartsWithQ.java` example is below. Use this format for all of your problems: open the file and loop through the words in `main`, printing all of the words that satisfy a `boolean` test method.
 
@@ -13,7 +17,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class ReadFromFileInClass {
+public class StartsWithQ {
 
   //*** Return true if the word starts with q ***//
   public static boolean startsWithQ(String word) {
@@ -46,18 +50,17 @@ public class ReadFromFileInClass {
   }
   
 }
-
-Tips:
-
-- Use the `charAt` method to access a single character of a `String`. Strings are indexed from 0 just like arrays.
-
 ```
+
+Remember: use the `charAt` method to access a single character of a `String`. Strings are indexed from 0 just like arrays.
 
 ## Questions
 
 ### Starts With `q` But Not `qu`
 
-Print all of the words that start with `q` but not `qu`.
+Modify the program above to print the words that start with `q` but not `qu`. Take the example we did in class and modify it to use a
+test method that returns a `boolean` like in the example above.
+
 
 ### Long words
 
@@ -79,7 +82,7 @@ Print all of the words with 18 or more characters.
 
 You can combine `charAt` and `length` to access the last character of a `String`. Print the words that end with `x`.
 
-Tip: `String` indexing starts at 0, just like arrays, so what is the index of the last item? It's not `word.length()`!
+Tip: `String` indexing starts at 0, just like arrays, so what is the index of the last character? It's not `word.length()`!
 
 ### I'm Thinking of a Word
 
@@ -98,3 +101,9 @@ Let's say that a word is *abecedarian* if its letters are in alphabetical order,
 Print all the abecedarian words in the list.
 
 Tip: use a loop and compare `word.charAt(i)` to `word.charAt(i + 1)`. Think about the ending condition of the loop.
+
+### TACOCAT is TACOCAT Backwards
+
+Find all the palindromes in the word list.
+
+Tip: Use a loop that compares pairs of letters, starting at the outermost letters (indexes 0 and length - 1) and working inwards. If you find a pair that doesn't match, return `false` immediately. If you succeed in checking all pairs, return `true`.
