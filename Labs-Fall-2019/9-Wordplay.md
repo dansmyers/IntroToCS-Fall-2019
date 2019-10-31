@@ -13,13 +13,19 @@ cd CMS_167/Files
 The code for the `StartsWithQ.java` example is below. Use this format for all of your problems: open the file and loop through the words in `main`, printing all of the words that satisfy a `boolean` test method.
 
 ```
+/**
+ * Use a boolean test method to find words in the word list
+ */
+
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
 public class StartsWithQ {
 
-  //*** Return true if the word starts with q ***//
+  /**
+   * Return true if the word starts with 'q', false otherwise
+   */
   public static boolean startsWithQ(String word) {
     if (word.charAt(0) == 'q') {
       return true;
@@ -28,7 +34,10 @@ public class StartsWithQ {
     }
   }
   
-  //*** Main ***//
+  
+  /**
+   * Main
+   */
   public static void main(String[] args) {
     
     Scanner fileInput = null;
