@@ -10,7 +10,7 @@ Write a Java class named `Guitar` with the following `private` data members:
 - `int year`
 - `int volume`
 
-Write a constructor that initializes all four values and `get` methods for all four values. Write a `set` method for the `volume` attribute that allows the user to set the volume to an `int` between 0 and 11, including both.
+Write a constructor that initializes all five values and `get` methods for all five values. Write a `set` method for the `volume` attribute that allows the user to set the volume to an `int` between 0 and 11, including both.
 
 Give your class a `toString` method that prints a `String` representation of the object's data.
 
