@@ -18,10 +18,58 @@ Give your class a `toString` method that prints a `String` representation of the
 
 *Such points. Much shred.*
 
-## More Points
+## Rectangle
 
-Moving from the realm of pointy guitars to actual points, write a class called `Point2D` to represent a single point in two-dimensional space.
+Fill in the class below representing a 2-D rectangle.
 
-Your class should have to `private double` data members named `x` and `y`.
+```
+/**
+ * Rectangle
+ *
+ * @author CMS_167
+ */
 
-Write a constructor, `set` and `get` methods for both members, and a `toString` method.
+public class Rectangle {
+
+    private double width;
+    private double height;
+    
+    /**
+     * Construct a new Rectangle
+     */
+    public Rectangle(double newWidth, double newHeight) {
+    
+    }
+    
+    /**
+     * Calculate and return the area
+     */
+    public dobule area() {
+    
+    }
+
+
+    /**
+     * Fill in get methods
+     */
+     
+     
+     
+     
+    /**
+     * Add a toString method
+     */
+     
+     
+     
+    /**
+     * Use main to test a class
+     */
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle(3.5, 2.0);
+        System.out.println(r);
+        System.out.println(r.area());
+    }
+
+}
+```
