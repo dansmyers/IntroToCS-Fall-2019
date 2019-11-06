@@ -179,8 +179,5 @@ public class Book {
         return this.title + " by " + this.author + ", " + this.price;
     }
     
-    
-    
-    
     // No main -- the BookDriver class contains the main
 }
