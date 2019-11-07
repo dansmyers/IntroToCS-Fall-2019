@@ -50,6 +50,10 @@ position `n - 1`. It then moves to position `n -2`, picks a random element, swap
 
 Implement the `shuffle` code, then add a line to your `main` to `shuffle` the deck before you print it.
 
+```
+d.shuffle();
+```
+
 ## Get
 
 Add `getRank` and `getSuit` methods to the `Card` class.
