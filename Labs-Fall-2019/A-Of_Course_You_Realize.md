@@ -33,7 +33,7 @@ Our goal is to *permute* the elements of the `cards` array into a random orderin
 
 ```
 public void shuffle() {
-    for (int i = this.cards.length - 1; i > 0; i++) {
+    for (int i = this.cards.length - 1; i > 0; i--) {
         // Generate a random array index in [0, i - 1]
         int j = (int) (Math.random() * i);
     
