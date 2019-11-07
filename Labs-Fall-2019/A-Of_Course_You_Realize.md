@@ -68,22 +68,34 @@ public class War {
   public static void main(String[] args) {
   
     // Create a new Deck
+    Deck d = new Deck();
     
     // Shuffle the deck
+    d.shuffle();
     
     // Deal cards
-    Card player = deck.deal();
-    Card cpu = deck.deal();
+    Card playerCard = d.deal();
+    Card cpuCard = d.deal();
     
     // Print the two cards
     
     // Compare the ranks of c1 and c2
+    Rank playerRank = playerCard.getRank();
+    Rank cpuRank = cpuCard.getRank();
     
-    // The higher ranked card is the winner
+    // Use compareTo method to get the difference between ranks
+    if (playerRank.compareTo(cpuRank) > 0) {
+        // Player wins
+    }
+    
+    // Add tests using compareTo for other cases
     
   }
 }
 ```
+
+One new feature introduced here is the use of `compareTo`, which compares one `Rank` against another and returns an
+`int` measuring the difference between them.
 
 Once you have that working, try the following modifications:
 
