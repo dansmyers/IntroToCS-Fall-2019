@@ -29,13 +29,19 @@ Write a `main` to test your class.
 
 Let's return to the `Deck` class from last time and add a `shuffle` method.
 
-Our goal is to *permute* the elements of the `cards` array into a random ordering. A common strategy for doing this is called the **Fisher-Yates shuffle algorithm**. Here is the psuedocde version:
+Our goal is to *permute* the elements of the `cards` array into a random ordering. A common strategy for doing this is called the **Fisher-Yates shuffle algorithm**. Here is the code you need:
 
 ```
-for (int i = n - 1; i > 0; i++) {
-    int j = a random array index in [0, i]
+public void shuffle() {
+    for (int i = this.cards.length - 1; i > 0; i++) {
+        // Generate a random array index in [0, i - 1]
+        int j = (int) (Math.random() * i);
     
-    Swap the array elements at positions i and j
+        //Swap the array elements at positions i and j
+        Card temp = this.cards[i];
+        this.cards[i] = this.cards[j];
+        this.cards[j] = temp;
+    }
 }
 ```
 
