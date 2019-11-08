@@ -73,4 +73,66 @@ most common. You don’t need to implement any of these features.
 
 ## Tips
 
-The trickiest part of the program is probably 
+### Scoring and Aces
+The trickiest part of the program is probably keeping track of the score of each hand and dealing with aces. Here is a strategy
+that will work:
+
+- Keep a running count of the player's score. Each time a new card is dealt, use its value to update the score.
+
+- Also keep count of the number of aces in the player's hand that count for 11 points. If the player's score goes over 21, but there is at least one ace counting for 11 points, subtract 10 to bring the score back down under 21.
+
+## Example Output
+
+You don't have to exactly copy this output, but here's an example of how the game might play.
+
+```
+Welcome to Blackjack.
+
+Shuffling the deck...
+
+Your two cards are 
+    ACE of HEARTS
+    TWO of CLUBS
+
+The dealer's face-up card is
+    NINE of DIAMONDS
+    
+Your current score is 13.
+1. Hit
+2. Stand
+Hit or Stand? 1
+
+Your next card is
+    NINE of SPADES
+    
+Your current score is 12.
+1. Hit
+2. Stand
+Hit or Stand? 1
+
+Your next card is
+    SEVEN of CLUBS
+    
+Your current score is 19.
+1. Hit
+2. Stand
+Hit or Stand? 2
+
+You stand with 19.
+
+The dealer's second card is
+    FIVE of HEARTS
+    
+The dealer's score is 14.
+
+Dealer hits.
+    FOUR of CLUBS.
+    
+The dealer's score is 18.
+
+Dealer stands with 18.
+
+Your 19 beats the dealer's 18.
+
+You win!
+```
