@@ -2,14 +2,14 @@
 
 ## Description
 
-Use the `Card` and `Deck` classes to implement a game of Blackjack.
+Use the `Card` and `Deck` classes to implement [a game of Blackjack](https://www.youtube.com/watch?v=HkzMA1jrm00).
 
 This project will let you practice using object-oriented programming (OOP) to implement a non-trivial interactive game.
 
 You have broad freedom to decide how you want the game to play: how you want the output to appear, how you want to collect input, etc.
 
-As with the other challenge projects, you can submit this one by showing me your solution any time before December 6. Please plan ahead so
-that we don't have a traffic jam of people all trying to turn in their projects at the last minute.
+As with the other challenge projects, you can submit this one by showing me your solution any time before December 6. 
+Please plan ahead so that we don't have a traffic jam of people all trying to turn in their projects at the last minute.
 
 ## Rules
 
