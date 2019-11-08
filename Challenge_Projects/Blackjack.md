@@ -25,7 +25,7 @@ There are three ways to win:
 2. Achieving a score greater than the dealer’s without exceeding 21 
 3. Letting the dealer draw cards until his score exceeds 21
 
-Our version of Blackjack will play a single round of the game between a single player and dealer using a single 52-card deck.
+Our version of Blackjack will play a single round of the game between a single player and dealer using a 52-card deck.
 
 ### Set-up
 
