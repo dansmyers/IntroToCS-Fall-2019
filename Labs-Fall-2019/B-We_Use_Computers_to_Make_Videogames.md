@@ -16,7 +16,7 @@ Go to [the BlueJ homepage](https://www.bluej.org). Download the appropriate vers
 
 **If you get an error about Java's JDK**, let me know. You probably need to download a JDK ("Java Development Kit") from [this site](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**If you can't install BlueJ** also let me know. It works on almost every computer, but there's always a possibility that some systems will have trouble with it. There are a couple of other options we can explore if BlueJ doesn't work.
+**If you can't get BlueJ** also let me know. It works on almost every computer, but there's always a possibility that some systems will have trouble with it. There are a couple of other options we can explore if BlueJ doesn't work.
 
 ## BlueJ Projects
 
