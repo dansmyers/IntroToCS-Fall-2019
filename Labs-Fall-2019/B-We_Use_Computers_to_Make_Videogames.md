@@ -160,4 +160,111 @@ What we need is a way to **group related variables together**. Does that sound f
 
 ## Screen Saver
 
-After you finish the main lab, modify the program to make a screen saver of your choice. Start by making the ball switch to a random color every time it hits an edge.
+Take a few minutes to play with the program. You try, for example, changing the color every time the ball hits an edge.
+
+## Object Balls
+
+### A Simplified Main
+
+Make a new class (using `Edit --> New Class`) named `ObjectBall`. We're going to write an **object-oriented version** of the bouncing ball program.
+
+Remove the starter code from `ObjectBall` and paste in the following `main`:
+
+```
+public class ObjectBall {
+
+    public static void main(String[] args) {
+     
+        // Make a new Ball object
+        Ball b = new Ball();
+        
+        while (true) {
+            StdDraw.clear();
+            
+	    // Use the ball's own methods to update its position and draw it to the screen
+            b.update();
+            b.draw();
+            
+            StdDraw.show(10);
+        }
+    }
+    
+}
+```
+
+## Actually Read This Next Part
+
+Here are the key ideas:
+
+- The `Ball` class (which we haven't written yet, but will in a minute) manages all of the state for a single bouncing ball. The seven variables that you had to manage manually in the first part of the program (`x`, `y`, `radius`, `red`, `green`, `blue`, `dx`, and `dy`) are now **wrapped up and encapsulated inside the `Ball` object**.
+
+- The `Ball` defines two methods named `update` and `draw`. Calling `update` makes the `Ball` update its own position and `draw` makes the `Ball` draw itself to the screen using `StdDraw` methods.
+
+- `main` is no longer responsible for managing the data, movement, or drawing of `Ball` objects. Instead, `main` just calls the relevant `update` and `draw` methods, which actually do all the work.
+
+## The `Ball` Class
+
+Make a new class named `Ball`. Fill it with the following code:
+
+```
+/**
+ * An object representing a bouncing ball
+ *
+ * @author CMS_167
+ */
+
+public class Ball {
+
+    // Instance variables
+    double x;
+    double y;
+    double radius;
+    double dx;
+    double dy;
+    int red;
+    int green;
+    int blue;
+    
+    /**
+     * Constructor -- set initial values for the Ball
+     * 
+     * For simplicity, this constructor just assigns default values
+     * We could write another constructor that takes values as parameters
+     */
+    public Ball() {
+        this.x = .5;
+        this.y = .5;
+        this.radius = .05;
+        this.dx = .0025;
+        this.dy = .005;
+        this.red = 50;
+        this.green = 10;
+        this.blue = 200; 
+    }
+     
+    /**
+     * Update -- the Ball updates its own position
+     */
+    public void update() {
+        if (this.x + this.radius > 1.0 || this.x - this.radius < 0.0) {
+            this.dx = -this.dx;
+        }
+        
+        if (this.y + this.radius > 1.0 || this.y - this.radius < 0.0) {
+            this.dy = -this.dy;
+        }
+        
+        this.x += this.dx;
+        this.y += this.dy;
+    }
+    
+    /**
+     * Draw -- the Ball draws itself to the graphical window
+     */
+    public void draw() {
+        StdDraw.setPenColor(this.red, this.green, this.blue);
+        StdDraw.filledCircle(this.x, this.y, this.radius);   
+    }
+    
+}
+```
