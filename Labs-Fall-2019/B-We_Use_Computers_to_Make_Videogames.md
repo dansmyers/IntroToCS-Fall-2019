@@ -268,3 +268,19 @@ public class Ball {
     
 }
 ```
+
+Compile both classes and run the `ObjectBall` `main` method. You should see the new ball bouncing around the window.
+
+## So You Want to Make Games?
+
+Here's a general strategy for writing simple graphical games.
+
+1. Each *thing* that exists in the game corresponds to a class.
+
+2. Each class has a set of data members that describe its properties. These would be typically location, color, velocity, and maybe 
+other things like point values or strength.
+
+3. Each class has an `update` method and a `draw` method. `update` performs the logic to move or otherwise modify the object on each frame of the game. `draw` uses graphics methods to draw the object to the window. Here's the key idea again: **each object manages its 
+own data and uses methods to move and draw itself in the correct ways**.
+
+4. `main` runs the basic animation loop, which consists mostly of calls to the `update` and `draw` methods for all of the game objects, plus a little additional logic to check for game ending conditions. **`main` only calls object methods -- it doesn't have to move or draw any game objects**.
