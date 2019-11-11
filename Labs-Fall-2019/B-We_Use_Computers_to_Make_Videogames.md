@@ -8,6 +8,8 @@ To implement this, we're going to introduce two more tools. The first is a libra
 
 `StdDraw.java` was originally written by Robert Sedgwick and Kevin Wayne for their book *Introduction to Programming in Java* and is used with permission.
 
+![](http://www.hrwiki.org/w/images/a/a6/Videlectrix_developers.png)
+
 ## Get BlueJ
 
 Go to [the BlueJ homepage](https://www.bluej.org). Download the appropriate version for your operating system (Mac or Windows). Open the ZIP file into a location that you can remember. Click on the BlueJ logo to launch the program.
