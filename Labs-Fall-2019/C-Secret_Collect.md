@@ -166,22 +166,30 @@ public boolean collidesWith(Player p) {
     double top = this.y + this.radius;
     double bottom = this.y - this.radius;
     
-    // Test if the player square is completely left of this square
+    // Test if the player's RIGHT side is LESS THAN of the goal's LEFT side
+    // This condition puts the player square COMPELTELY LEFT of the goal square
+    // If the player is completely left, they can't overlap
     if (p.right() < left) {
         return false;
     }
     
-    // Test if the player square is completely right of this square
+    // Test if the player's LEFT side is GREATER THAN the goal's RIGHT side
+    // This puts the player COMPLETELY RIGHT of the goal square
   
-    // Test if the player square is completely above this square
+    // Test if the player's TOP is LESS THAN the goal's BOTTOM
+    // This puts the player COMPLETELY BELOW the goal square
     
-    // Test if the player square is completely below this square
+    // Test if the player's BOTTOM is GREATER THAN the goal's TOP
+    // This puts the player COMPLETELY ABOVE the goal square
     
+    // If all of the previous tests fail, the player square must be in collision
+    // with the goal square
     return true;
 }
 ```
 
-Recall our discussion about collisions from last class. If the player is **totally to the left** of the goal, then they can't intersect. That's what the first test checks.
+The first test checks if the player square is **totally to the left** of the goal square. If this is the case, the two square's can't
+overlap with each other.
 
 To make it work, add a new method called `right` into the `Player` class that returns the position of its right side.
 
@@ -197,7 +205,7 @@ Now add the other three cases to `collidesWith` and their associated support met
 
 ## Dodge Ball
 
-Here's an extra challenge if you get all of that done.
+Here's an extra challenge when you have all of that done.
 
 Add a `Ball` to the game and give it a `collidesWith` method, identical to the one from the `Square` class. Test if the player collides with the `Ball` on each iteration. If the player hits the ball, end the main game loop.
 
