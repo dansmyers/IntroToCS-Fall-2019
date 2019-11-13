@@ -104,7 +104,8 @@ public class Square {
 
 The two classes are nearly identical. The only differences are that they start in different locations, have different colors, and the `Player` class defines an update method.
 
-**Aside**: think about the relationship between the two classes. If they're *almost* the same, wouldn't it be useful if we could create one class that contained all of the common code, and then only write the smaller customized elements to make the separate `Player` and `Square` classes?
+### Aside
+Think about the relationship between the two classes. If they're *almost* the same, wouldn't it be useful if we could create one class that contained all of the common code, and then only write the smaller customized elements to make the separate `Player` and `Square` classes?
 
 Java allows this under its concept of **inheritance**. It's possible for one class to **inherit** the methods and properties of another, which can be used to reduce the amount of duplicate code that needs to be written for similar classes. We won't do much with inheritance in the rest of this class, but it's a core feature of object-oriented programming in general.
 
