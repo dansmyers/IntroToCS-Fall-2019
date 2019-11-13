@@ -21,6 +21,11 @@ This project will let you keep practicing all of the concepts we've developed in
 
 You don't have to write **that much** code for this project, but you do have to think hard about how a non-trivial program built from multiple classes works.
 
+To get full credit for this project, you must do two things:
+
+1. Finish the basic Breakout game, using the instructions below.
+2. Add **one new feature** to the game. This can be anything you want, but you have to make some modification to the code that extends or alters the game in some small or large way.
+
 ## The Code
 
 This repo contains four classes:
@@ -48,8 +53,28 @@ The main loop does the following:
 
 - Draw everything.
 
+## Plan
+
+Here is a recommended plan of attack for implementing the full game.
+
+1. Make the `Ball` move and bounce around the screen.
+
+2. Make the `Paddle` move left and right.
+
+3. Implement the `right`, `left`, `top`, and `bottom` methods in the `Paddle` class.
+
+4. Implement `checkPaddleCollision` in the `Ball` class to make the `Ball` reflect off the `Paddle`.
+
+5. Implement the `right`, `left`, `top`, and `bottom` methods in the `Brick` class.
+
+4. Implement `checkBrickCollision` in the `Ball` class. Note that this method is almost identical to the other collision detection
+methods, but it returns a `boolean` value that's used to destroy the `Brick` if a collision happens.
+
+5. Implement the game-ending checks. The game ends if all of the bricks are destroyed or if the `Ball` reaches the bottom of the screen.
+You'll need to add an `atBottomOfScreen` method to the `Ball` class.
+
+The most important tip: **develop in stages**. Make one change to the code, then compile and run your program. If your program doesn't do what you expect, or has any errors, **fix them before moving on**.
+
 ## Submission
 
-Upload your work **to Canvas** to an assignment that I'll create.
-
-## Plan
+Upload your work **to Canvas** to an assignment that I'll create. Put the four classes in a ZIP file.
