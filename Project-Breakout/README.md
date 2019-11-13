@@ -77,4 +77,6 @@ The most important tip: **develop in stages**. Make one change to the code, then
 
 ## Submission
 
-Upload your work **to Canvas** to an assignment that I'll create. Put the four classes in a ZIP file.
+Upload your work **to Canvas** to an assignment that I'll create.
+
+Put your four completed classes in a ZIP file. The easiest way to do this is to right-click (or ctrl-click on a Mac) on the folder that contains your files and choose "Compress" or a similarly-named option from the action menu that appears.
