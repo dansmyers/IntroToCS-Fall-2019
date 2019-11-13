@@ -79,8 +79,9 @@ public class Breakout {
             }
 
             StdDraw.show(20);
-
-        }
-
-    }
-}
+         
+        } // End of main game loop
+     
+    } // End of main method
+ 
+} // End of class
