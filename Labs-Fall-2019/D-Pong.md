@@ -108,9 +108,9 @@ public class Ball {
   public Ball() {
     this.x = .5;
     this.y = .5;
-    this.radius = .01;
-    this.dx = .0025;
-    this.dy = .001;
+    this.radius = .025;
+    this.dx = .005;
+    this.dy = .0025;
   }
 	
   /*** Move the ball ***/
