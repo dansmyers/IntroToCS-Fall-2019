@@ -4,6 +4,8 @@
 
 We're going to use our graphics programming skills to implement Pong: the grandaddy of them all.
 
+<img src="https://www.gamasutra.com/db_area/images/feature/3900/0401.png" width="50%"/>
+
 
 
 ## Setup
