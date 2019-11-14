@@ -155,6 +155,8 @@ The `isLeft` variable is important: it's used to check whether a `Paddle` is on 
 
 
 ```
+import java.awt.event.KeyEvent;
+
 public class Paddle {
 
   private double x, y;  // Center position, both are in (0, 1)
