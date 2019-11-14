@@ -32,44 +32,44 @@ public class Pong {
   /**
    * Main
    */
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 		
-		/*** Initialize ***/
-		Paddle left = new Paddle(true);
-		Paddle right = new Paddle(false);
-		Ball ball = new Ball();
+    /*** Initialize ***/
+    Paddle left = new Paddle(true);
+    Paddle right = new Paddle(false);
+    Ball ball = new Ball();
 		
-		boolean playing = true;
+    boolean playing = true;
 		
-		/*** Main game loop ***/		
-		while (playing ) {
+    /*** Main game loop ***/		
+    while (playing ) {
 					
-			// Check for collisions	
-			// Reverse ball's direction if it collides with a paddle
-			ball.checkCollision(left);
-			ball.checkCollision(right);
+      // Check for collisions	
+      // Reverse ball's direction if it collides with a paddle
+      ball.checkCollision(left);
+      ball.checkCollision(right);
 				
-			// Use object methods to update positions
-			ball.update();
-			left.update();
-			right.update();
+      // Use object methods to update positions
+      ball.update();
+      left.update();
+      right.update();
 					
       // Game is over if the Ball reaches the left or right edge      
-			if (ball.atEdge()) {
-				playing = false;
-			}    
+      if (ball.atEdge()) {
+        playing = false;
+      }    
           
-			// Draw
-			StdDraw.clear();
+      // Draw
+      StdDraw.clear();
 			
-			left.draw();
-			right.draw();
-			ball.draw();
+      left.draw();
+      right.draw();
+      ball.draw();
 			
-			StdDraw.show(20);
+      StdDraw.show(20);
 
-		}
-	}
+    }
+  }
 
 }
 ```
@@ -98,42 +98,42 @@ Put the following code into `Ball.java`.
 ```
 public class Ball {
 	
-	private double x, y;  // Center position, both are in (0, 1)
-	private double radius;  // Size
-	private double dx, dy;  // Velocity (change in position on each step)
+  private double x, y;  // Center position, both are in (0, 1)
+  private double radius;  // Size
+  private double dx, dy;  // Velocity (change in position on each step)
 	
-	/*** Constructor ***/
-	public Ball() {
-      this.x = .5;
-      this.y = .5;
-      this.radius = .01;
-      this.dx = .0025;
-      this.dy = .001;
-	}
+  /*** Constructor ***/
+  public Ball() {
+    this.x = .5;
+    this.y = .5;
+    this.radius = .01;
+    this.dx = .0025;
+    this.dy = .001;
+  }
 	
-	/*** Move the ball ***/
-	public void update() {
+  /*** Move the ball ***/
+  public void update() {
 
-	}
+  }
 	
-	/*** Return true if this Ball has reached either edge, false otherwise ***/
-	public boolean atEdge() {
-		return false;
-	}
+  /*** Return true if this Ball has reached either edge, false otherwise ***/
+  public boolean atEdge() {
+    return false;
+  }
 	
-	/*** Check if this Ball collides with a Paddle ***/
-	public void checkCollision(Paddle paddle) {
+  /*** Check if this Ball collides with a Paddle ***/
+  public void checkCollision(Paddle paddle) {
 		
-		// Check if the Ball collides with the input paddle
+    // Check if the Ball collides with the input paddle
 		
-		// If there is a collision, reverse the Ball's movement in the x direction
+    // If there is a collision, reverse the Ball's movement in the x direction
     
-	}
+  }
 		
-	/*** Draw this ball using StdDraw ***/
-	public void draw() {
+  /*** Draw this ball using StdDraw ***/
+  public void draw() {
       StdDraw.filledCircle(this.x, this.y, this.radius);
-	}
+  }
   
 }
 ```
@@ -155,14 +155,14 @@ The `isLeft` variable is important: it's used to check whether a `Paddle` is on 
 ```
 public class Paddle {
 
-	private double x, y;  // Center position, both are in (0, 1)
-	private double halfWidth, halfHeight;  // Size
-	private boolean isLeft;
+  private double x, y;  // Center position, both are in (0, 1)
+  private double halfWidth, halfHeight;  // Size
+  private boolean isLeft;
   
   private final double STEP = .01;  // Distance to move on each key press
 
-	/*** Constructor ***/
-	public Paddle(boolean isLeft) {
+  /*** Constructor ***/
+  public Paddle(boolean isLeft) {
     this.isLeft = isLeft;
 
     // Set x position based on value of isLeft
@@ -175,16 +175,16 @@ public class Paddle {
     this.y = .50;
     this.halfWidth = .01;
     this.halfHeight = .10;
-	}
+  }
   
 	
-	/*** Move the Paddle ***/
-	public void update() {
+  /*** Move the Paddle ***/
+  public void update() {
 		
-		// Test for keypress and update y position appropriately
-		// Review the code from the last lab
+    // Test for keypress and update y position appropriately
+    // Review the code from the last lab
 		
-		// Left paddle should use w and s keys for up and down
+    // Left paddle should use w and s keys for up and down
     if (this.isLeft) {
         if (StdDraw.isKeyPressed(KeyEvent.VK_W)) {
             this.y += STEP;
@@ -193,9 +193,9 @@ public class Paddle {
         // Add if statement to check for VK_S and move down
     }
 		
-		// Add code to check up and down arrows for the right paddle
+    // Add code to check up and down arrows for the right paddle
     
-	}
+  }
 	
   
   /*** Add methods to calculate and return right, left, top, and bottom of the Paddle ***/
@@ -204,10 +204,10 @@ public class Paddle {
   }
 	
   
-	/*** Draw this paddle using StdDraw functions ***/
-	public void draw() {	
+  /*** Draw this paddle using StdDraw functions ***/
+  public void draw() {	
       StdDraw.filledRectangle(this.x, this.y, this.halfWidth, this.halfHeight);
-	}
+  }
 
 }
 ```
@@ -243,7 +243,7 @@ Again, run the program and verify that you can move the paddles correctly before
 
 Now complete the `checkCollision` method in `Ball`.
 
-This method will be the same as the collision-checking code we wrote in the previous lab.
+This method will be the same as the collision-checking code we wrote in the previous lab. Here is an excerpt to jog your memory.
 
 ```
 double left = this.x  - this.radius;
