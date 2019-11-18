@@ -113,7 +113,8 @@ cat pom.xml
 ```
 
 XML (the eXtensible Markup Language) is like HTML: it uses a hierarchy of tags to structure information. Right now, we don't really
-care about anything that's in this file. One thing you can notice
+care about anything that's in this file. One thing you can notice is the `artifactId` tag that appears near the top of the file: it
+controls the name of the resulting application.
 
 ## The Source
 
