@@ -2,7 +2,7 @@
 
 ## Overview
 
-** Web programming** is the body of techniques that make it possible to deliver high-quality software through a web browser over the
+**Web programming** is the body of techniques that make it possible to deliver high-quality software through a web browser over the
 Internet.
 
 For a company, web-based software has a lot of advantages:
