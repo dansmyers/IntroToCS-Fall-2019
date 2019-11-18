@@ -219,9 +219,7 @@ In your Mimir IDE, go to `View --> View Port --> Port 80`. This will open up a n
 https://distracted-mimir_80.ide.mimir.io
 ```
 
-The actual name will be the name of your Mimir workspace.
-
-You will see an error page the first time you open the window, saying something like "Whitelabel Error Page". **This is fine**.
+The actual name will be the name of your Mimir workspace. You will see an error page the first time you open the window, saying something like "Whitelabel Error Page". **This is fine**.
 
 **To view your page**, change the URL address by adding `/hello` to the end:
 
