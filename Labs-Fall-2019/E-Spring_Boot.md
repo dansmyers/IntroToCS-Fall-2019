@@ -229,4 +229,42 @@ https://distracted-mimir_80.ide.mimir.io/hello
 
 If everything worked, you should see the hello message printed in your browser window.
 
-## New Methods
+## What's Going On?
+
+Let's talk about the `Controller` class and what it's doing.
+
+- Every method inside `Controller` is associated with a web address through the `@RequestMapping` annotation. The `hello` method is associated with the `/hello` web address.
+
+- When the server receives an HTTP request for the `/hello` URL, it redirects the flow of control to the appropriate method in `Controller`, which is `hello` in this case.
+
+- The `hello` code runs and returns a `String`.
+
+- The Spring framework automatically packs that `String` into an HTTP response message and sends it back to the client, where it appears in the client's web browser.
+
+A **route** is an association between a web URL and a piece of server code.
+
+## New Routes
+
+Try adding a route for the `/goodbye` URL. Your code should look like the `hello` example, including an `@RequestMapping` annotation.
+
+**Stop the server using ctrl + C**, then rebuild the project
+
+```
+./mvnw clean package
+```
+
+Run the server again
+
+```
+java -jar target/cms167-f19-java-spring-boot
+```
+
+And navigate to the goodbye route:
+
+```
+https://distracted-mimir_80.ide.mimir.io/goodbye
+```
+
+You should see your goodbye message appear in the browser.
+
+Try adding a few more routes. You can add a default route for the base web page using `RequestMapping("")`.
