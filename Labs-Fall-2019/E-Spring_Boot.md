@@ -35,8 +35,8 @@ This project is going to introduce several new concepts:
 
 ## Web App Architecture
 
-All of our programs so far have been developed, compiled, and run on one computer. Now we're going to introduce the idea of **distributed
-computing**, where the functions of an application canm be spread over multiple computers.
+All of our programs so far have been developed, compiled, and run on one computer. Now we're going to introduce the idea of 
+**distributed computing**, where the functions of an application can be spread over multiple computers.
 
 The big division in a web app is between the **client side** (or **front end**) of the application and the **server side** (or **back end**) 
 of the application.
