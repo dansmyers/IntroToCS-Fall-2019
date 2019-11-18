@@ -134,7 +134,7 @@ builds be labeled with a `package` that matches its directory.
 Bulid the project:
 
 ```
-$ ./mvnw clean package
+./mvnw clean package
 ```
 
 This will download, like, 100 billion files.
@@ -147,7 +147,7 @@ run.
 Run the program:
 
 ```
-$ java -jar target/cms167-java-spring-boot
+java -jar target/cms167-java-spring-boot
 ```
 
 The program prints `Hello, World!` to the terminal.
@@ -206,8 +206,10 @@ public class Controller {
 Save both files, then compile and run the application again.
 
 ```
-$ ./mvnw clean package
-$ java -jar target/cms167-java-spring-boot.
+./mvnw clean package
+```
+```
+java -jar target/cms167-java-spring-boot.
 ```
 
 You will see the program print out a large amount of text to the program: this time, it's actually starting up a web server. The `Server`
