@@ -20,7 +20,7 @@ There are **many** different frameworks that have been created to support web pr
 plus some that you can't.
 
 In this series of labs, we're going to practice developing some web apps using Spring Boot, a web programmming framework for Java.
-Spring is a set of tools and classes for Java created to support building Big Freaking Enterprise Software Applications. Spring Boot is a
+Spring is a set of tools and classes in Java for building Big Freaking Enterprise Software Applications. Spring Boot is a
 "batteries included" subset of Spring that's intended to help you get a new application off the ground quickly. For that reason, some
 things in Spring Boot **just are the way they are**.
 
