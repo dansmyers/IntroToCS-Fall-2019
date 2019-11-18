@@ -148,7 +148,7 @@ run.
 Run the program:
 
 ```
-java -jar target/cms167-java-spring-boot
+java -jar target/cms167-java-spring-boot-0.1.0.jar
 ```
 
 The program prints `Hello, World!` to the terminal.
@@ -210,7 +210,7 @@ Save both files, then compile and run the application again.
 ./mvnw clean package
 ```
 ```
-java -jar target/cms167-java-spring-boot.
+java -jar target/cms167-java-spring-boot-0.1.0.jar
 ```
 
 You will see the program print out a large amount of text to the program: this time, it's actually starting up a web server. The `Server`
@@ -259,7 +259,7 @@ Try adding a route for the `/goodbye` URL. Your code should look like the `hello
 Run the server again
 
 ```
-java -jar target/cms167-f19-java-spring-boot
+java -jar target/cms167-java-spring-boot-0.1.0.jar
 ```
 
 And navigate to the goodbye route:
