@@ -271,3 +271,74 @@ https://distracted-mimir_80.ide.mimir.io/goodbye
 You should see your goodbye message appear in the browser.
 
 Try adding a few more routes. You can add a default route for the base web page using `RequestMapping("")`.
+
+## Page
+
+Okay, let's do some practical stuff.
+
+Create a top-level directory called `html` and add a file to it called `index.html`. **This goes in the top-level directory**, not in the `src` subdirectories.
+
+```
+mkdir html
+```
+
+```
+touch html/index.html
+```
+
+Put the following HTML code into `index.html`:
+
+```
+<!DOCTYPE html>
+<html>
+
+    <!-- Head contains metadata on the whole document -->
+    <head>
+        <title>CMS 330 REST Demo</title>
+    </head>
+
+    <!-- Body contains the page's content -->
+    <body>
+        <h1>Greetings, Planet!</h1>
+
+        <p>The server returns this page when your browser requests the root
+        document of the site.</p>
+    </body>
+</html>
+```
+
+Next, add a new mapping to `Controller.java`. This mapping will load and return the contents of `index.html` when the user requests the root page of the application. You need to add two imports to the top of the file.
+```
+import java.nio.file.Files;
+import java.nio.file.Paths;
+```
+
+```
+@RequestMapping("")
+public String index() {
+    String indexHtml = null;
+
+    try {
+        byte[] bytes = Files.readAllBytes(Paths.get("html/index.html"));
+    	indexHtml = new String(bytes);
+    } catch(Exception e) {
+        e.printStackTrace();
+    }
+
+    return indexHtml;
+}
+```
+
+The snippet of code loads the contents of `index.html` as a `byte` array, then converts the array to a `String` and returns it. The Spring framework does all the word of turning that return value into an HTTP response and routing it back to the client.
+
+Build your app and run it from the command line.
+
+```
+./mvnw clean package
+```
+
+```
+java -jar target/cms167-java-spring-boot-0.1.0.jar
+```
+
+When the server starts, reload your page by going to `View --> View Ports --> Port 80`. You should see the page load in your browser window.
