@@ -31,7 +31,7 @@ This project is going to introduce several new concepts:
 - Building executable JAR files
 - Running a web server
 - Creating a controller with HTTP routes
-- Creating a formatting web pages
+- Creating and formatting web pages
 
 ## Web App Architecture
 
