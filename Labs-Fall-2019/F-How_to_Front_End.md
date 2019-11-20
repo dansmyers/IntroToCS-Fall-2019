@@ -82,6 +82,30 @@ the button. Notice that the function is **anonymous**: it doesn't have a name. T
 
 Clearly, this style of programming requires you to know what properties and fields are available for each element. These are standardized as part of the HTML specification, but, in practice, you will often end up doing documentation searches to figure out exactly what field to read or set for a particular element to get the effect you want.
 
+## Fortune
+
+Modify the `<script>` section of the page to print a random fortune when the user clicks the button.
+
+Change the code inside the `function` block to pick a random number between 0 and 1 and then use it to load a message into the `<div>`.
+
+```
+var r = Math.random();  // JS random number function has the same name as Java
+
+if (r < .3333) {
+
+    // Use document.getElementById to load a message into the div
+
+} else if (r < .6666) {
+
+    // Use document.getElementById to load a different message into the div
+
+} else {
+
+    // Use document.getElementById to load a third message into the div
+
+}
+```
+
 ## Send and Receive
 
 Now, we're going to add one more element to the JavaScript code: a call that sends information from the page to the server and receives a response.
