@@ -63,6 +63,17 @@ The third page element is a `div`, which you can think of as a page division. Th
 has an `id`, so that you can interact with it later. This `div` is going to be used to print a response message from
 the server.
 
+### Serve the Page
+
+Build and run your web application using the commands from the last lab:
+
+```
+./mvnw clean package
+java -jar target/cms167-java-spring-boot-0.1.0.jar
+```
+
+Visit the page and verify see what happens when you type in the box and click the button.
+
 ### JavaScript
 
 The page has a `script` tag located inside the `body`. The content of the `script` is JavaScript. Notice that the commenting style
