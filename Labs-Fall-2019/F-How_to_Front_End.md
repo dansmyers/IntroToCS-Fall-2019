@@ -394,7 +394,7 @@ Add the following to the page. Put it **below** the end of the second row, but s
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>        
     </div>
     
-    <div class="col-md-6>
+    <div class="col-md-6">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>       
     </div>
 
