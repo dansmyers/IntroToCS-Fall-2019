@@ -97,24 +97,32 @@ Clearly, this style of programming requires you to know what properties and fiel
 
 Modify the `<script>` section of the page to print a random fortune when the user clicks the button.
 
-Change the code inside the `function` block to pick a random number between 0 and 1 and then use it to load a message into the `<div>`.
+Change the button's function to pick a random number between 0 and 1 and then use it to load a message into the `<div>`.
 
 ```
-var r = Math.random();  // JS random number function has the same name as Java
+    // Set a listener function for the button click
+    document.getElementById('submitButton').onclick = function () {
 
-if (r < .3333) {
+	// Get the current string in the text box
+	var input = document.getElementById('inputBox').value;
 
-    // Use document.getElementById to load a message into the div
+	// Copy it to the response field
+	var r = Math.random();  // JS random number function has the same name as Java
 
-} else if (r < .6666) {
+	if (r < .3333) {
 
-    // Use document.getElementById to load a different message into the div
+	    document.getElementById("responseDiv").innerHTML = input + ", things are looking good!";
 
-} else {
+	} else if (r < .6666) {
 
-    // Use document.getElementById to load a third message into the div
+	    // Use document.getElementById to load a different message into the div
 
-}
+	} else {
+
+	    // Use document.getElementById to load a third message into the div
+
+	}
+    }
 ```
 
 ## Send and Receive
