@@ -199,3 +199,198 @@ java -jar target/cms167-java-spring-boot-0.1.0.jar
 The new code is fairly simple. One key detail: the parameter (`name`) is passed to the server *as part of the URL*.
 
 In this style, the overall HTTP method is `GET`, which implies that the request does not have a body, but the URL has been extended with a `?` followed by a set of name-value parameter pairs.
+
+
+## Bootstrap
+
+The pages you've built up to this point have worked fine, but suffer from one obvious problem: **they look like total garbage**.
+
+To spruce things up a bit, we're going to introduce Bootstrap, the most popular framework for designing responsive front end web pages.
+Bootstrap was created at Twitter, so it's sometimes called **Twitter Bootstrap**, but it's no longer directly managed by that company.
+
+Bootstrap does a few nice things for you:
+
+- It gives you a set of default page styles that look decent. Bootstrap also includes a lot of built-in styles for elements like buttons and input boxes.
+- It allows you to easily create a structured row-and-column layout for your page content.
+- It is **responsive**, which means that it automatically resizes and rearranges the page elements based on the size of the viewing a window. **This is extremely helpful** because it means that same page can automatically reconfigure itself and look good on desktop, mobile, or any other device.
+
+### Example Page
+
+Change your `index.html` page to the following. This page seems a lot longer, but it's not that complex.
+
+After you update the page, view it in your browser.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <title>Bootstrap Starter Page</title>
+  
+        <style>
+     
+            // Additional CSS formatting goes here
+
+        </style>
+  
+    </head>
+  
+    <body>
+    
+        <!-- Jumbotron makes a big banner heading at the top of the page -->
+        <div class="jumbotron">
+
+            <h1 class="display-1">
+                Jumbotron!
+            </h1>
+
+        </div>
+
+    
+        <!-- Page content goes inside this container -->
+    
+        <div class="container">
+
+            <!-- All content is organized into a series of rows -->
+            <div class="row">
+
+                <!-- Columns span a portion of the row -->
+                <div class="col-md-4">
+
+                    <h1>Hello</h1>
+
+                    <p>
+                        This is an example Bootstrap page.
+                    </p>
+                    
+                    <p>
+                        This column spans four of the twelve units in the row. The other column spans the other eight of twelve units.
+                    </p>
+
+                </div>
+
+
+
+                <div class="col-md-8">
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>
+                    
+                    <p>
+                        Notice how the image's width is automatically scaled to the width of its column.
+                    </p>
+
+                </div>
+
+
+            </div>  <!-- End of row -->
+        
+
+            <!-- A second row -->
+	        <div class="row">
+
+                 <div class="col-md-12">
+                      <h1>
+                           This is a single column that spans all twelve units.
+                       </h1>
+                  </div>
+                
+            </div> <!-- End of second row -->
+        
+                
+        </div>  <!--- end container -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </body>
+
+</html>
+```
+
+The page is divided into three rows:
+
+1. The top-level callout with huge text. Bootstrap calls this a **Jumbotron**.
+
+2. The first row of content, which is split into two columns. The left column spans one-third of the page. The right column spans two-thirds of the page and contains an `<img>` tag.
+
+3. The second row of content, which is organized as one column that spans the entire page.
+
+### Resize
+
+Try resizing your brower window. What happens to the page elements as you shrink the window? You can even try going to your page on your phone (by manually typing the URL into your browser bar) and seeing how it looks.
+
+### Bootstrap's Grid System
+
+**Everything in Bootstrap is organized around a series of rows and columns**.
+
+Every row is a `<div class="row">` element. Inside the row `<div>` are one or more `<div>` elements that represent the columns.
+
+**All of the columns must be inside a row `div` and all of the rows must be inside a single container `div`**. If you're Bootstrap page
+looks really weird, chances are that some content has somehow slipped outside of the container-row-column framework.
+
+Every Boostrap row is conceptually divided into **twelve column units**. You can make columns that span any subset or combination of those twelve units.
+
+Here is an example from the demo page you just viewed:
+
+```
+            <!-- All content is organized into a series of rows -->
+            <div class="row">
+
+                <!-- Columns span a portion of the row -->
+                <div class="col-md-4">
+
+                    <h1>Hello</h1>
+
+                    <p> This is an example Bootstrap page.</p>
+                    
+                    <p> This column spans four of the twelve units in the row. The other column spans the other eight of twelve units.</p>
+                </div>
+
+
+                <div class="col-md-8">
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>
+                    
+                    <p> Notice how the image's width is automatically scaled to the width of its column.</p>
+
+                </div>
+
+        </div>  <!-- End of row -->
+```
+
+Take a look at the columns:
+
+- The first column is identified by a `<div class="col-md-4">` tag. The `4` makes it span four of the twelve units, so it takes up one-third of the total row.
+
+- The second column is identified by a `<div class="col-md-8">` tag. The `8` makes it span four of the twelve units, so it takes up one-third of the total row.
+
+### Add a Row
+
+Add the following to the page. Put it **below** the end of the second row, but still inside the container `div`.
+
+
+```
+<!-- Third row: each column takes up half the width -->
+<div class="row">
+
+    <div class="col-md-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>        
+    </div>
+    
+    <div class="col-md-6>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/2560px-Tsunami_by_hokusai_19th_century.jpg" width="100%"/>       
+    </div>
+
+</div> <!-- End of third row -->
+```
+
+Reload the page and you'll see that a new row with two images has appeared at the bottom of the page.
