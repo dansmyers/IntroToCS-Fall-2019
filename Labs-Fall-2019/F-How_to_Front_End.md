@@ -394,3 +394,289 @@ Add the following to the page. Put it **below** the end of the second row, but s
 ```
 
 Reload the page and you'll see that a new row with two images has appeared at the bottom of the page.
+
+
+## Put It All Together
+
+Update `index.html` one more time to the following page.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <title>Bootstrap Starter Page</title>
+  
+        <style>
+     
+            // Additional CSS formatting goes here
+
+        </style>
+  
+    </head>
+  
+    <body>
+    
+        <!-- Jumbotron makes a big banner heading at the top of the page -->
+        <div class="jumbotron">
+
+            <h1 class="display-1">
+                Hello!
+            </h1>
+            
+            <p class="lead">
+                This page combines all of the essential elements of web programming.
+            </p>
+
+        </div>
+
+    
+        <!-- Page content goes inside this container -->
+    
+        <div class="container">
+
+            <!-- All content is organized into a series of rows -->
+            <div class="row">
+
+                <!-- Columns span a portion of the row -->
+                <div class="col-md-6">
+
+                    <h1>Hello!</h1>
+
+                    <p>Type your name in the box below and click the button.</p>
+
+                    <input type="text" class="form-control" id="inputBox">
+          
+                    <button class="btn btn-primary" type="button" id="submitButton">
+                        Submit
+                    </button>
+                </div>
+
+
+
+                <div class="col-md-6">
+
+                    <div id="responseDiv">
+                        
+                    </div>
+
+                </div>
+
+
+        </div>  <!-- End of row -->
+        
+                
+        </div>  <!--- end container -->
+        
+        
+        <!-- Page element scripts -->
+         <script>
+            // Set a listener function for the button click
+            document.getElementById('submitButton').onclick = function () {
+
+                // Get the current string in the text box
+                var input = document.getElementById('inputBox').value;
+
+                // Create and send an HTTP request
+                var oReq = new XMLHttpRequest();
+                oReq.addEventListener("load", responseListener);
+                oReq.open("GET", "https://nostalgic-dellingr_80.ide.mimir.io/hello?name=" + input);
+                oReq.send();
+            }
+
+            // Listener runs when the server's response comes back
+            function responseListener() {
+                document.getElementById('responseDiv').innerHTML = this.responseText;
+            }
+        </script>
+
+        <!-- Required Bootstrap scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+
+</html>
+```
+
+
+This demo shows off all of the essential elements we've developed in one page:
+
+- Your Java Spring Boot server returns the page when the user visits the site.
+- It uses Bootstrap for a grid-based layout.
+- It has an input box and button.
+- Clicking the button runs a short script that takes the string from the text box and sends it to the server.
+- The server processes your input and returns a response.
+- The page then uses the server response to update its own content.
+
+This example is not complex, but you can see how it combines everything you need to make more full-featured applications.
+
+## I CAN HAZ?
+
+Try out one more example page. The script code is a little more complex than the previous example, but all of the
+essential elements are the same. Look through the code and examine how the different parts of the page interact.
+
+Here are some image URLs for you to use:
+
+```
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ducreux1.jpg/1280px-Ducreux1.jpg
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_lake_of_Hakone_in_the_Segami_province.jpg/2560px-The_lake_of_Hakone_in_the_Segami_province.jpg
+```
+
+```
+<!doctype html>
+<html>
+    
+    <head>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <style>
+            canvas {
+                width: 100%;
+                height: auto
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <div class="jumbotron jumbotron-fluid bg-light">
+           <div class="container">
+
+                <!-- The display classes make text big -->
+                <h1 class="display-4">
+                    CMS 167 Meme Generator
+                </h1>
+               
+               <p class="lead">
+                   DO NOT CREATE ANY DR. MYERS MEMES
+               </p>
+            </div> <!-- container -->
+        </div>
+        
+
+        <!-- Recall: all Bootstrap content must be enclosed in a container div -->
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <canvas id="canvas" width="640" height="480">
+                        Sorry, your browser doesn't support the &lt;canvas&gt; element.
+                    </canvas>
+                </div> <!-- /col-md-6 -->
+                
+                <div class="col-md-6">
+                    
+                    <label for="imageURL">Image URL</label>
+                    <input type="text" class="form-control" id="imageURL" placeholder="Enter the URL of the image you want to meme.">
+                             
+                    <label for="memeText" class="mt-4">Meme Text</label>
+                    <input type="text" class="form-control" id="memeText" placeholder="Put your meme text here.">
+                                          
+                    <!-- Radio button group -->
+                    <div class="btn-group btn-group-toggle mt-4" data-toggle="buttons">
+                        <label class="btn btn-outline-primary active">
+                            <input type="radio" name="positions" value="bottom" autocomplete="off" checked> Text at Bottom
+                        </label>
+                        <label class="btn btn-outline-primary">
+                            <input type="radio" name="positions" value="top" autocomplete="off"> Text at Top
+                        </label>
+                    </div>
+                               			       
+                    <button class="btn btn-primary btn-block mt-4" type="button" id="generateButton">
+                        Generate Meme
+                    </button>
+           
+                </div> <!-- /col-md-6 -->
+
+            </div> <!-- /row -->
+   
+        </div> <!-- /container -->
+        
+	<!-- Script that performs the meme generation work -->
+        <script>
+            // Get a reference to the canvas's drawing context
+            // context provides all drawing functions
+            var canvas = document.getElementById("canvas");
+            var context = canvas.getContext("2d");
+            
+	    // Set a function that runs on a button click
+            var button = document.getElementById("generateButton");
+            button.onclick = function() {
+                
+                // Get the source URL from the input box
+                var inputBox = document.getElementById("imageURL");
+                var url = inputBox.value;
+            
+                // Create a new Image and assign it a source URL
+                var img = new Image();
+                img.src = url;
+            
+                // You can't draw the image until it's loaded
+                // This function runs when the image is ready
+                img.onload = function() {
+                    // Set canvas size to image size
+                    // Scales canvas up if image is larger than default in either dimension
+                    canvas.width = 640;
+                    canvas.height = 480;
+                    canvas.width = Math.max(canvas.width, img.width);
+                    canvas.height = Math.max(canvas.height, img.height);                  
+                
+                    // Draw the image
+                    // (0, 0) is the upper-left corner of the canvas
+                    context.drawImage(img, 0, 0, img.width, img.height);
+                    
+                    // Set up and draw text
+                    // Black outline first, then white filled
+                    var text = document.getElementById("memeText").value;
+                    var textX = img.width / 2;  // Center text within image
+                    
+                    // Select height using radio buttons
+                    var position = document.querySelector('input[name="positions"]:checked').value;
+                    if (position == "bottom") {
+                        textY = img.height * .80;
+                    } else {
+                        textY = img.height * .20;
+                    }
+                    
+                    var fontSize = .10 * img.width;  // Scale font based on image width                    
+                    context.font = fontSize + "px Impact";  // Font string
+                
+                    context.textAlign = "center";  // Center text on x position
+  
+                    context.strokeStyle = 'black';
+                    context.lineWidth = .10 * fontSize;  // Width of black outline
+                    context.miterLimit = 2;  // Controls outline artifacts
+                    context.strokeText(text, textX, textY);  // Write black outline
+
+                    context.fillStyle = "white";
+                    context.fillText(text, textX, textY);  // Write white text
+                }
+            }
+        </script>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
+```
