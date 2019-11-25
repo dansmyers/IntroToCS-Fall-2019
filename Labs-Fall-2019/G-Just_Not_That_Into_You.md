@@ -112,7 +112,7 @@ There are really only two things happening here:
 
 - The second line uses Twilio's `Message` class to construct and send a text message.
 
-**Put your own phone number between the quotes where it says `To number`.
+**Put your own phone number between the quotes where it says `To number`**.
 
 
 ### Authenticate
