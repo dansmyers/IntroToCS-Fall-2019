@@ -5,7 +5,7 @@
 ***Thanks to Mariah Haskell for coming up with the idea for this lab.***
 
 We're going to write an **automated rejection app** that will give you the ability to passive-aggressively reject people that you are
-Just Not That Into. When someone calls or texts a special phone number, your app will automatically respond with a rejection message
+**Just Not That Into**. When someone calls or texts a special phone number, your app will automatically respond with a rejection message
 and encourage the rejected party to continue having a nice life.
 
 To do this, we're going to play with Twilio, a company that provides programmable SMS text messaging and phone calls over the Internet.
