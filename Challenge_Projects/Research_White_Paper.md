@@ -1,6 +1,6 @@
 # Challenge Project: Research White Paper
 
-## Final submission due on or before December 1
+## Final submission due on or before December 6
 
 ## Description
 
