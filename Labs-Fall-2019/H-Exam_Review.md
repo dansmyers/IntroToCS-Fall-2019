@@ -10,10 +10,10 @@ These are practice exam review questions that will be on the final study guide. 
 
 2. Write three different loops that each print `s m o k e t h e s e m e a t s` 100 times.
 
-3. Write a code fragment that prints a 12 x 12 multiplication table.
+3. Write a code fragment that prints a 12 x 15 multiplication table.
 
-4. Write a code fragment that prints the numbers from 1 to 30, but print `Bink!` for numbers divisible by 4, `Bonk!` for numbers divisible
-by 7, and `BinkBonk!` for numbers divisible by 4 and 7.
+4. Write a code fragment that prints the numbers from 1 to 30, but print `Bink!` for numbers divisible by 4, `Bonk!` for numbers 
+divisible by 7, and `BinkBonk!` for numbers divisible by 4 and 7.
 
 5. Write code fragment that repeatedly prompts the user for a message until the user types `STOP`.
 
@@ -29,7 +29,7 @@ by 7, and `BinkBonk!` for numbers divisible by 4 and 7.
 
 ## Arrays
 
-1. Initialize an `int[]` containing the first 7 prime numbers.
+1. Initialize an `int[]` containing the first 7 prime numbers then print its contents using `Arrays.toString`.
 
 2. Write a method that takes a `double[]` as input and returns the average of the numbers it contains.
 
@@ -37,11 +37,11 @@ by 7, and `BinkBonk!` for numbers divisible by 4 and 7.
 
 4. Write a method called `isPalindrome` that takes a `String` as input and returns true if the `String` is a palindrome.
 
-5. Give an example where `==` and `.equals` return different results.
+5. Give an example where `==` and `.equals` return different results. Explain your answer.
 
-6. Give an example where `==` and `.equals` return the same result.
+6. Give an example where `==` and `.equals` return the same result. Explain your answer.
 
-7. What is the output of this fragment?
+7. What is the output of this fragment? Explain.
 
 ```
 char c = 'A';
@@ -61,3 +61,7 @@ System.out.println(c + 10);
 
 5. Write a `Student` class with a `String name` and `double gpa` class members. Write a constructor, `get` and `set` methods, and a 
 `toString` method.
+
+## Miscellaneous
+
+1. Use a truth table to show that `!(A && B && C)` is equalivalent to `!A || !B || !C`. This is one version of De Morgen's Law, an important result in Boolean logic.
