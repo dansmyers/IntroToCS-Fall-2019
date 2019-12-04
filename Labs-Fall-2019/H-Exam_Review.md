@@ -21,16 +21,11 @@ by 7, and `BinkBonk!` for numbers divisible by 4 and 7.
 
 1. Print `OHAI` 100 times without using a loop and without using 100 print statements.
 
-2. Write a method that takes a `double` value as input and returns its absolute value.
+2. Write a method that takes a `double` value as input and returns its absolute value. Do not use `Math.abs`.
 
 3. What’s the difference between a static and non-static method?
 
-4. What is the output of this fragment?
-
-```
-char c = 'A';
-System.out.println(c + 10);
-```
+4. Write a method that returns the sum of two randomly generated die rolls.
 
 ## Arrays
 
@@ -45,6 +40,14 @@ System.out.println(c + 10);
 5. Give an example where `==` and `.equals` return different results.
 
 6. Give an example where `==` and `.equals` return the same result.
+
+7. What is the output of this fragment?
+
+```
+char c = 'A';
+System.out.println(c + 10);
+```
+8. Write a method called `isSorted` that takes an array as input and returns `true` if the array's elements are in increasing order.
 
 ## Objects
 
