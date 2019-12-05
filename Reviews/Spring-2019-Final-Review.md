@@ -25,7 +25,7 @@ tweak
 
 ## Methods
 
-1. Print `OHAI` 9 times without using a loop and using only one `System.out.println` statement.
+1. Print `We have just applied the Sweet Baby Ray's.` 9 times without using a loop and using only one `System.out.println` statement.
 
 2. Write a method that takes a `double` value as input and returns its absolute value. Do not use `Math.abs`.
 
@@ -75,7 +75,7 @@ System.out.println(c + 10);
 
 1. Define the concept of encapsulation in object-oriented programming. Answer in the form of a haiku.
 
-2. What is the difference between a `public` and a `private` data member. Again, answer in the form of a haiku.
+2. What is the difference between a `public` and a `private` data member. Answer in the form of a haiku.
 
 3. What is the difference between a class and a instance of a class?
 
