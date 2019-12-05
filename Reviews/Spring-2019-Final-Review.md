@@ -25,7 +25,7 @@ tweak
 
 ## Methods
 
-1. Print `We have just applied the Sweet Baby Ray's.` 9 times without using a loop and using only one `System.out.println` statement.
+1. Print `We have just applied the Sweet Baby Ray's` 9 times without using a loop and using only one `System.out.println` statement.
 
 2. Write a method that takes a `double` value as input and returns its absolute value. Do not use `Math.abs`.
 
