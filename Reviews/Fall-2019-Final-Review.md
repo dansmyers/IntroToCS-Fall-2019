@@ -12,7 +12,7 @@ the final exam.
 2. Write three different loops that each print `s m o k e t h e s e m e a t s` 100 times.
 
 3. Write a code fragment that prints the numbers from 1 to 30, but print `Bink!` for numbers divisible by 4, `Bonk!` for numbers 
-divisible by 7, and `BinkBonk!` for numbers divisible b both 4 and 7.
+divisible by 7, and `BinkBonk!` for numbers divisible by both 4 and 7.
 
 4. Write a program that uses a `while` loop and a `Scanner` to continually prompt the user for input.  The program should continue looping until the user types one of the following words:
 
