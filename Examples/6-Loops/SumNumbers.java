@@ -13,7 +13,7 @@ public class SumNumbers {
         int n = 1;
         int sum = 0;
         
-        while (n <= 1000) {
+        for (int n = 1; n <= 1000; n++) {
             sum += n;
             n += 1;
         }
